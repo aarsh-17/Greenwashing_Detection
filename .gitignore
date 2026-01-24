@@ -1,0 +1,21 @@
+# Python virtual environments
+esg_venv/
+.venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+Oil & Gas/
+Fashion_Retail/
+
+Healthcare/
+nlp/claim_classifier/
+bert_claim_classifier/
+*.xlsx
