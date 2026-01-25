@@ -172,7 +172,7 @@ if __name__ == "__main__":
     claims_df = extract_claims_from_pdf(
         pdf_path=PDF_PATH,
         company_name="Shell",
-        threshold=0.85
+        threshold=0.90
     )
 
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
