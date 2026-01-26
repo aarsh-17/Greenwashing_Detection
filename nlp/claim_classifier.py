@@ -18,7 +18,6 @@ PROJECT_ROOT = Path("D:/ESG_platform")
 PDF_PATH = PROJECT_ROOT / "Oil & Gas" / "Shell.pdf"
 OUTPUT_PATH = PROJECT_ROOT / "nlp" / "shell_claims.xlsx"
 
-CLAIM_THRESHOLD = 0.8
 
 
 # ==========================================================
@@ -54,14 +53,67 @@ model.eval()
 # PDF EXTRACTION (pdfplumber)
 # ==========================================================
 
+def is_table_header_line(line: str) -> bool:
+    # Detect timeline table headers like: 2023 2022 2021 2020 2019
+    years = re.findall(r"\b20\d{2}\b", line)
+    return len(years) >= 3
+
 def extract_text_from_pdf(pdf_path: Path) -> str:
-    text_chunks = []
+    cleaned_chunks = []
+
     with pdfplumber.open(pdf_path) as pdf:
         for page in pdf.pages:
-            page_text = page.extract_text()
-            if page_text:
-                text_chunks.append(page_text)
-    return " ".join(text_chunks)
+
+            page_text = page.extract_text() or ""
+
+            cleaned_page_lines = []
+            skip_table_mode = False
+            table_blank_run = 0
+
+            for line in page_text.split("\n"):
+                norm_line = normalize_whitespace(line)
+
+                # ✅ If table header found -> start skipping
+                if is_table_header_line(norm_line):
+                    skip_table_mode = True
+                    table_blank_run = 0
+                    continue
+
+                # ✅ stop skipping after a few "non-table looking" lines
+                if skip_table_mode:
+                    # count blank / separators
+                    if len(norm_line) == 0:
+                        table_blank_run += 1
+                        if table_blank_run >= 2:
+                            skip_table_mode = False
+                        continue
+
+                    # keep skipping numeric-heavy rows
+                    num_count = len(re.findall(r"\d+", norm_line))
+                    if num_count >= 3:
+                        continue
+
+                    # if it's a short label + units style line, also skip
+                    if len(norm_line.split()) <= 6:
+                        continue
+
+                    # once we hit real paragraph text -> exit skip mode
+                    skip_table_mode = False
+
+                # ✅ normal filters (keep these)
+                num_count = len(re.findall(r"\d+", norm_line))
+                if num_count >= 4 and len(norm_line.split()) <= 15:
+                    continue
+
+                if norm_line.count("%") >= 3:
+                    continue
+
+                cleaned_page_lines.append(line)
+
+            cleaned_chunks.append(" ".join(cleaned_page_lines))
+
+    return " ".join(cleaned_chunks)
+
 
 
 # ==========================================================
@@ -73,7 +125,7 @@ def repair_word_boundaries(text: str) -> str:
     text = re.sub(r'([a-z])([A-Z])', r'\1 \2', text)
 
     # Insert space between letters and numbers: "In2023" → "In 2023"
-    text = re.sub(r'([a-zA-Z])(\d)', r'\1 \2', text)
+    text = re.sub(r'(?<!CO)(?<!tCO)([a-zA-Z])(\d)', r'\1 \2', text)
     text = re.sub(r'(\d)([a-zA-Z])', r'\1 \2', text)
 
     # Restore common ESG units
@@ -156,7 +208,7 @@ def extract_claims_from_pdf(pdf_path: Path, company_name: str, threshold: float)
                 "company": company_name,
                 "claim_text": sent,
                 "confidence": round(confidence, 3),
-                "source_pdf": str(pdf_path)
+
             })
 
     return pd.DataFrame(records)
@@ -177,6 +229,7 @@ if __name__ == "__main__":
 
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     claims_df.to_excel(OUTPUT_PATH, index=False)
+    claims_df.to_csv(OUTPUT_PATH.with_suffix(".csv"), index=False)
 
     print(f"Claims extracted: {len(claims_df)}")
     print(f"Saved Excel file to: {OUTPUT_PATH}")
