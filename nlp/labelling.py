@@ -60,13 +60,16 @@ VAGUE_KEYWORDS = [
     "strive", "focused", "support", "supporting", "responsible",
     "sustainable", "sustainability", "cleaner", "greener", "future",
     "better world", "working towards", "net zero", "net-zero",
-    "ambition", "vision", "purpose", "alignment"
+    "ambition", "vision", "purpose", "alignment", "aspire", "aspiration",
+    "endeavor", "endeavour", "dedicated", "drive", "promote", "promoting",
+    "enhance", "enhancing", "improve", "improving"
 ]
 
 OFFSET_KEYWORDS = [
     "offset", "offsets", "carbon credits", "credit", "compensate",
     "compensation", "neutralised", "neutralized", "carbon neutral",
-    "carbon-neutral", "nature-based"
+    "carbon-neutral", "nature-based", "reforestation", "afforestation",
+    "soil carbon", "blue carbon", "carbon storage", "sequestration"
 ]
 
 TIMEFRAME_PATTERNS = [
@@ -127,10 +130,10 @@ def classify_claim_type(sentence: str) -> str:
     """
     s = sentence.lower()
 
-    if any(x in s for x in ["net zero", "net-zero", "2050", "2030", "target", "goal", "aim"]):
+    if any(x in s for x in ["net zero", "net-zero", "2050", "2030", "target", "goal", "aim", "commitment", "commit", "promise", "pledge", "intend", "plan", "strive", "aspire",]):
         return "Target/Future Promise"
 
-    if any(x in s for x in ["reduced", "decreased", "cut", "lowered", "improved", "increase", "achieved"]):
+    if any(x in s for x in ["reduced", "decreased", "cut", "lowered", "improved", "increase", "achieved","has","have","completed","reduction","reaching","reached"]):
         return "Past Achievement"
 
     if any(x in s for x in ["offset", "credits", "compensate", "carbon neutral", "neutralized", "neutralised"]):

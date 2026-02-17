@@ -15,8 +15,8 @@ import spacy
 MODEL_PATH = Path("D:/ESG_platform/bert_claim_classifier")
 PROJECT_ROOT = Path("D:/ESG_platform")
 
-PDF_PATH = PROJECT_ROOT / "Oil & Gas" / "Shell.pdf"
-OUTPUT_PATH = PROJECT_ROOT / "nlp" / "shell_claims.xlsx"
+PDF_PATH = PROJECT_ROOT / "Oil & Gas" / "Marathon.pdf"
+OUTPUT_PATH = PROJECT_ROOT / "nlp" / "marathon_claims.xlsx"
 
 
 
@@ -52,11 +52,42 @@ model.eval()
 # ==========================================================
 # PDF EXTRACTION (pdfplumber)
 # ==========================================================
+def is_document_structure_noise(text: str) -> bool:
+    t = re.sub(r"\s+", " ", str(text)).strip()
+
+    # Too short
+    if len(t) < 5:
+        return True
+
+    # Too many title-case / capitalized words (TOC style)
+    words = t.split()
+    if len(words) >= 8:
+        cap_words = sum(1 for w in words if w[:1].isupper())
+        if cap_words / len(words) >= 0.6:
+            return True
+
+    # Contains common ESG TOC/header tokens
+    bad_tokens = [
+        "sustainability", "our performance", "our values", "respecting nature",
+        "powering lives", "energy transition", "our journey", "data", "overview",
+         "report", "table of contents", "management", "framework", "indicators", "index", "about this report","See more","Learn more","See all"
+    ]
+    lower = t.lower()
+    if sum(1 for b in bad_tokens if b in lower) >= 2:
+        return True
+
+    # Looks like a list of sections (no verbs)
+    verb_like = re.search(r"\b(is|are|was|were|will|reduce|achieve|eliminate|cut|increase|decrease|commit|aim|has|have|do|does)\b", lower)
+    if verb_like is None and len(words) > 5:
+        return True
+
+    return False
+
 
 def is_table_header_line(line: str) -> bool:
     # Detect timeline table headers like: 2023 2022 2021 2020 2019
     years = re.findall(r"\b20\d{2}\b", line)
-    return len(years) >= 3
+    return len(years) >= 4
 
 def extract_text_from_pdf(pdf_path: Path) -> str:
     cleaned_chunks = []
@@ -72,6 +103,8 @@ def extract_text_from_pdf(pdf_path: Path) -> str:
 
             for line in page_text.split("\n"):
                 norm_line = normalize_whitespace(line)
+
+
 
                 # ✅ If table header found -> start skipping
                 if is_table_header_line(norm_line):
@@ -105,7 +138,7 @@ def extract_text_from_pdf(pdf_path: Path) -> str:
                 if num_count >= 4 and len(norm_line.split()) <= 15:
                     continue
 
-                if norm_line.count("%") >= 3:
+                if norm_line.count("%") >= 4:
                     continue
 
                 cleaned_page_lines.append(line)
@@ -224,7 +257,7 @@ if __name__ == "__main__":
     claims_df = extract_claims_from_pdf(
         pdf_path=PDF_PATH,
         company_name="Shell",
-        threshold=0.90
+        threshold=0.75
     )
 
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
@@ -233,3 +266,4 @@ if __name__ == "__main__":
 
     print(f"Claims extracted: {len(claims_df)}")
     print(f"Saved Excel file to: {OUTPUT_PATH}")
+

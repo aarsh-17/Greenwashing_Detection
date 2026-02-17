@@ -18,4 +18,5 @@ Fashion_Retail/
 Healthcare/
 nlp/claim_classifier/
 bert_claim_classifier/
+*.pdf
 *.xlsx
