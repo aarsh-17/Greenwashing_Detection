@@ -10,6 +10,8 @@ from app.services.claim_cleanup import clean_claims
 from app.services.scoring import greenwash_score
 from app.services.svc_service import svc_predict_risk
 from app.config import UPLOAD_DIR
+from app.hash_utils import sha256_file, sha256_json
+from app.services.blockchain_service import store_on_chain as store_document_on_chain, get_document_from_chain
 
 router = APIRouter(prefix="/documents", tags=["Documents"])
 
@@ -214,3 +216,118 @@ async def list_documents():
         }
         for d in cursor
     ]
+
+# =========================================================
+# POST /documents/{document_id}/anchor
+# =========================================================
+@router.post("/{document_id}/anchor")
+async def anchor_document_to_blockchain(document_id: str):
+    # ---------- 1. Fetch document ----------
+    doc = documents_collection.find_one({"_id": document_id})
+    if not doc:
+        return {"error": "Document not found"}
+
+    # Prevent double anchoring
+    if doc.get("blockchain_tx"):
+        return {
+            "status": "ALREADY_ANCHORED",
+            "blockchain_tx": doc["blockchain_tx"]
+        }
+
+    # ---------- 2. Hash PDF ----------
+    pdf_hash = sha256_file(doc["file_path"])
+
+    # ---------- 3. Hash final results ----------
+    result_payload = {
+        "document_id": document_id,
+        "company": doc["company"],
+        "overall_score": doc["overall_score"],
+        "risk_level": doc["risk_level"],
+        "total_claims": doc["total_claims"]
+    }
+
+    result_hash = sha256_json(result_payload)
+
+    # ---------- 4. Push to blockchain ----------
+    tx_hash = store_document_on_chain(
+        document_id=document_id,
+        pdf_hash=pdf_hash,
+        result_hash=result_hash,
+        company=doc["company"],
+        score=int(doc["overall_score"]),
+        risk_level=doc["risk_level"]
+    )
+
+    # ---------- 5. Update MongoDB ----------
+    documents_collection.update_one(
+        {"_id": document_id},
+        {
+            "$set": {
+                "pdf_hash": pdf_hash,
+                "result_hash": result_hash,
+                "blockchain_tx": tx_hash,
+                "anchored_at": datetime.utcnow()
+            }
+        }
+    )
+
+    # ---------- 6. Return response ----------
+    return {
+        "status": "ANCHORED",
+        "document_id": document_id,
+        "blockchain_tx": tx_hash,
+        "explorer": f"https://amoy.polygonscan.com/tx/{tx_hash}"
+    }
+
+
+# =========================================================
+# GET /documents/{document_id}/verify-onchain
+# =========================================================
+@router.get("/{document_id}/verify-onchain")
+async def verify_document_onchain(document_id: str):
+
+    # ---------- 1. Fetch from MongoDB ----------
+    doc = documents_collection.find_one({"_id": document_id})
+    if not doc:
+        return {"status": "NOT_FOUND"}
+
+    if not doc.get("blockchain_tx"):
+        return {"status": "NOT_ANCHORED"}
+
+    # ---------- 2. Recompute local hashes ----------
+    local_pdf_hash = sha256_file(doc["file_path"])
+
+    local_payload = {
+        "document_id": document_id,
+        "company": doc["company"],
+        "overall_score": doc["overall_score"],
+        "risk_level": doc["risk_level"],
+        "total_claims": doc["total_claims"]
+    }
+
+    local_result_hash = sha256_json(local_payload)
+
+    # ---------- 3. Fetch on-chain data ----------
+    try:
+        chain_data = get_document_from_chain(document_id)
+    except Exception as e:
+        return {"status": "CHAIN_ERROR", "error": str(e)}
+
+    # ---------- 4. Compare ----------
+    pdf_match = local_pdf_hash == chain_data["pdf_hash"]
+    result_match = local_result_hash == chain_data["result_hash"]
+
+    if pdf_match and result_match:
+        status = "VERIFIED"
+    else:
+        status = "TAMPERED"
+
+    return {
+        "status": status,
+        "pdf_hash_match": pdf_match,
+        "result_hash_match": result_match,
+        "blockchain_tx": doc["blockchain_tx"],
+        "explorer": f"https://amoy.polygonscan.com/tx/{doc['blockchain_tx']}",
+        "anchored_timestamp": chain_data["timestamp"]
+    }
+

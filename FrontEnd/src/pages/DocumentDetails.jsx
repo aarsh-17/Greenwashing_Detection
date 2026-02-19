@@ -6,21 +6,45 @@ import StatCard from "../components/StatCard.jsx";
 import ClaimsTable from "../components/ClaimsTable.jsx";
 
 import { getDocumentDetails, getDocumentClaims } from "../api/claimsAPI.js";
+import { anchorDocumentToBlockchain } from "../api/claimsAPI.js";
+
 
 export default function DocumentDetails() {
   const { docId } = useParams();
   const [doc, setDoc] = useState(null);
-
+  const [anchoring, setAnchoring] = useState(false);
+  const [blockchainTx, setBlockchainTx] = useState(null);
+  const [anchorStatus, setAnchorStatus] = useState(null);
+    
+  
  
 
-useEffect(() => {
-  async function load() {
-    const docData = await getDocumentDetails(docId);
-    const claimsData = await getDocumentClaims(docId);
-    setDoc({ ...docData, claims: claimsData });
+  async function handleAnchor() {
+    try {
+      setAnchoring(true);
+      setAnchorStatus(null);
+
+      const res = await anchorDocumentToBlockchain(docId);
+
+      setBlockchainTx(res.blockchain_tx);
+      setAnchorStatus("ANCHORED");
+    } catch (err) {
+      console.error(err);
+      setAnchorStatus("ERROR");
+    } finally {
+      setAnchoring(false);
+    }
   }
-  load();
-}, [docId]);
+
+  useEffect(() => {
+    async function load() {
+      const docData = await getDocumentDetails(docId);
+      const claimsData = await getDocumentClaims(docId);
+      console.log(claimsData);
+      setDoc({ ...docData, claims: claimsData });
+    }
+    load();
+  }, [docId]);
 
   if (!doc) return <div className="text-zinc-500">Loading...</div>;
 
@@ -37,6 +61,38 @@ useEffect(() => {
           </div>
 
           <div className="flex items-center gap-5">
+            <div className="mt-4">
+              {!blockchainTx ? (
+                <button
+                  onClick={handleAnchor}
+                  disabled={anchoring}
+                  className="rounded-lg bg-emerald-600 px-4 py-2 text-sm font-semibold text-white hover:bg-emerald-700 disabled:opacity-50"
+                >
+                  {anchoring ? "Anchoring on Blockchain..." : "Anchor to Blockchain"}
+                </button>
+              ) : (
+                <div className="text-sm text-emerald-700 font-medium">
+                  ✔ Anchored on Blockchain
+                  <div className="mt-1">
+                    <a
+                      href={`https://amoy.polygonscan.com/tx/${blockchainTx}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-blue-600 underline"
+                    >
+                      View on Polygonscan
+                    </a>
+                  </div>
+                </div>
+              )}
+
+              {anchorStatus === "ERROR" && (
+                <div className="text-sm text-red-600 mt-1">
+                  Failed to anchor document
+                </div>
+              )}
+            </div>
+
             <ScoreRing score={doc.score} />
             <div>
               <div className="text-sm text-zinc-500">Greenwashing Risk</div>

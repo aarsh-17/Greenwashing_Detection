@@ -54,9 +54,10 @@ export default function ClaimsTable({ claims = [] }) {
           <thead className="text-left text-zinc-500">
             <tr className="border-b">
               <th className="py-2 pr-4">Risk</th>
-              <th className="py-2 pr-4"></th>
+              
               <th className="py-2 pr-4">Claim</th>
               <th className="py-2 pr-4">Confidence</th>
+              <th className="py-2 pr-4">Rule Score</th>
               <th className="py-2 pr-4">Type</th>
             </tr>
           </thead>
@@ -66,11 +67,11 @@ export default function ClaimsTable({ claims = [] }) {
                 <td className="py-3 pr-4">
                   <RiskBadge level={c.riskLevel} />
                 </td>
-                <td className="py-3 pr-4 font-semibold">{c.score}</td>
                 <td className="py-3 pr-4 max-w-[520px]">
                   <div className="line-clamp-3">{c.text}</div>
                 </td>
-                <td className="py-3 pr-4 text-zinc-600">{c.reason}</td>
+                <td className="py-3 pr-4 text-zinc-600">{c.mlConfidence}</td>
+                <td className="py-3 pr-4 text-zinc-600">{c.ruleScore}</td>
                 <td className="py-3 pr-4 text-zinc-600">{c.type}</td>
               </tr>
             ))}

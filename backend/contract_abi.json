@@ -1,0 +1,128 @@
+[
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "reportId",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "pdfHash",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "resultHash",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "company",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "score",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "riskLevel",
+				"type": "string"
+			}
+		],
+		"name": "storeReport",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "reportId",
+				"type": "string"
+			}
+		],
+		"name": "getReport",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			}
+		],
+		"name": "reports",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "pdfHash",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "resultHash",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "company",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "score",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "riskLevel",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "timestamp",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	}
+]

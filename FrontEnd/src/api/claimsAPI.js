@@ -23,3 +23,30 @@ export async function getDocumentClaims(docId) {
   }
   return await res.json();
 }
+
+export async function anchorDocumentToBlockchain(docId) {
+  const res = await fetch(
+    `http://localhost:8000/documents/${docId}/anchor`,
+    {
+      method: "POST",
+    }
+  );
+
+  if (!res.ok) {
+    throw new Error("Failed to anchor document");
+  }
+
+  return res.json();
+}
+
+export async function verifyDocumentOnChain(docId) {
+  const res = await fetch(
+    `http://localhost:8000/documents/${docId}/verify-onchain`
+  );
+
+  if (!res.ok) {
+    throw new Error("Verification failed");
+  }
+
+  return res.json();
+}
