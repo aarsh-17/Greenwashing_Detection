@@ -27,3 +27,17 @@ def svc_predict_risk(sentence: str) -> tuple[str, float]:
     confidence = min(1.0, abs(float(np.max(margins))) / 3.0)
 
     return pred.upper(), round(confidence, 3) 
+
+def predict_risk(sentence: str) -> tuple[str, float]:
+    X = pd.DataFrame([{
+        "claim_sentence": sentence,
+        "has_number"    : detect_has_number(sentence)
+    }])
+
+    pred = model.predict(X)[0]
+
+    # RF uses predict_proba — confidence = probability of predicted class
+    proba      = model.predict_proba(X)[0]           # array of [P(High), P(Low), P(Medium)]
+    confidence = float(np.max(proba))                # highest class probability
+
+    return pred.upper(), round(confidence, 3)

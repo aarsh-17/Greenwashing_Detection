@@ -1,0 +1,8 @@
+sentence-transformers
+faiss-cpu
+pymupdf
+spacy
+numpy
+scikit-learn
+tqdm
+ollama

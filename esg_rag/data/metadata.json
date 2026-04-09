@@ -1,0 +1,3026 @@
+[
+  {
+    "text": "In the CPS, the share of the market taken by EVs continues to rise, though not as rapid as in recent years, with EVs accounting for around 40% of the over 100 million passenger cars sold worldwide in 2035. China accounts for more than 50% of total electric cars sold globally in 2035, and Europe for another 30%.",
+    "pdf_page_index": 4,
+    "page": 5,
+    "pdf_page": 5,
+    "scenario": "CPS",
+    "sectors": [
+      "Cross-sector"
+    ],
+    "primary_sector": "Cross-sector",
+    "years": [
+      2035
+    ],
+    "time_bucket": "Mid-term",
+    "constraint_type": "Growth",
+    "metric": "Unspecified",
+    "numbers": [
+      "40%",
+      "100 million",
+      "2035",
+      "50%",
+      "2035",
+      "30%"
+    ]
+  },
+  {
+    "text": "Sales of LNG heavy freight trucks have been rising, mainly in China, where around 1 million were on the road in 2024. The market dipped slightly in the first-half of 2025, but in the CPS, the LNG heavy freight truck fleet more than doubles to 2035. 2 Road freight includes light commercial vehicles, which have a gross weight of less than tonnes, medium freight trucks, which have a gross weight between and 15 tonnes, and heavy freight trucks, which have a gross weight of more than 15 tonnes.",
+    "pdf_page_index": 6,
+    "page": 7,
+    "pdf_page": 7,
+    "scenario": "CPS",
+    "sectors": [
+      "Gas",
+      "Transport"
+    ],
+    "primary_sector": "Gas",
+    "years": [
+      2024,
+      2025,
+      2035
+    ],
+    "time_bucket": "Mid-term",
+    "constraint_type": "Growth",
+    "metric": "Unspecified",
+    "numbers": [
+      "1 million",
+      "2024",
+      "2025",
+      "2035",
+      "2 ",
+      "15 ",
+      "15 "
+    ]
+  },
+  {
+    "text": "Some energy efficiency technologies that offer a positive return on investment are introduced for new ships. This leads to a 4% decline in shipping energy use per tonne-kilometre by 2035 in the CPS.",
+    "pdf_page_index": 8,
+    "page": 9,
+    "pdf_page": 9,
+    "scenario": "CPS",
+    "sectors": [
+      "Transport"
+    ],
+    "primary_sector": "Transport",
+    "years": [
+      2035
+    ],
+    "time_bucket": "Mid-term",
+    "constraint_type": "Decline",
+    "metric": "Unspecified",
+    "numbers": [
+      "4%",
+      "2035 "
+    ]
+  },
+  {
+    "text": "China retains its dominant position in energy-intensive industries in the CPS: it accounts for 40% of global demand in energy-intensive industries in 2035. Nevertheless, its shift towards less energy-intensive industries means that other emerging market and 20% 40% 60% 80% 100% Share in industrial production Steel Cement Chemicals Energy demand of energy-intensive industries (EJ) Other EMDE China Advanced economies",
+    "pdf_page_index": 14,
+    "page": 15,
+    "pdf_page": 15,
+    "scenario": "CPS",
+    "sectors": [
+      "Industry"
+    ],
+    "primary_sector": "Industry",
+    "years": [
+      2035
+    ],
+    "time_bucket": "Mid-term",
+    "constraint_type": "Trend",
+    "metric": "Unspecified",
+    "numbers": [
+      "40%",
+      "2035",
+      "20%",
+      "40%",
+      "60%",
+      "80%",
+      "100%"
+    ]
+  },
+  {
+    "text": "The electrification of end-uses that have previously relied on other fuels, notably the uptake of EVs in Europe and China, also contributes to more demand for electricity. Efficiency gains, notably in appliances, housing and industry, reduce overall growth in electricity demand to 2035 by around 15% in the CPS.",
+    "pdf_page_index": 17,
+    "page": 18,
+    "pdf_page": 18,
+    "scenario": "CPS",
+    "sectors": [
+      "Power",
+      "Industry"
+    ],
+    "primary_sector": "Power",
+    "years": [
+      2035
+    ],
+    "time_bucket": "Mid-term",
+    "constraint_type": "Growth",
+    "metric": "Electricity demand",
+    "numbers": [
+      "2035 ",
+      "15%"
+    ]
+  },
+  {
+    "text": "Battery storage is the fastest growing power technology, averaging 90% market growth over the past five years: around 135 GW of new battery capacity is added per year to 2035 in the CPS, 75% above the level of deployment in 2024. Box \u22b3 Nuclear power is making a comeback Several prominent nuclear energy projects in the United States and Europe face project delays and cost overruns, and the industry is still grappling with various public concerns, notably about long-term waste disposal challenges.",
+    "pdf_page_index": 22,
+    "page": 23,
+    "pdf_page": 23,
+    "scenario": "CPS",
+    "sectors": [
+      "Power",
+      "Industry"
+    ],
+    "primary_sector": "Power",
+    "years": [
+      2024,
+      2035
+    ],
+    "time_bucket": "Mid-term",
+    "constraint_type": "Growth",
+    "metric": "Capacity",
+    "numbers": [
+      "90%",
+      "135 GW",
+      "2035 ",
+      "75%",
+      "2024"
+    ]
+  },
+  {
+    "text": "In the CPS, global electricity grids increase by 25 million km from 2024 to 2035, becoming 30% more extensive than today, and by a further 40 million km to 2050. Increasing electricity demand is responsible for over 90% of total grid expansion to 2050.",
+    "pdf_page_index": 26,
+    "page": 27,
+    "pdf_page": 27,
+    "scenario": "CPS",
+    "sectors": [
+      "Power"
+    ],
+    "primary_sector": "Power",
+    "years": [
+      2024,
+      2035,
+      2050
+    ],
+    "time_bucket": "Long-term",
+    "constraint_type": "Growth",
+    "metric": "Electricity demand",
+    "numbers": [
+      "25 million",
+      "2024 ",
+      "2035",
+      "30%",
+      "40 million",
+      "2050",
+      "90%",
+      "2050"
+    ]
+  },
+  {
+    "text": "Most of this is in emerging market and developing economies, which in aggregate add over 20 million km to their grids by 2035. China accounts for close to 40% of this total, extending its grid to 2035 by nearly three-times as much as advanced economies combined (the CPS, 2024-2050 Most new lines are installed to meet increased demand; nearly 90% of all new lines are in emerging market and developing economies",
+    "pdf_page_index": 26,
+    "page": 27,
+    "pdf_page": 27,
+    "scenario": "CPS",
+    "sectors": [
+      "Power"
+    ],
+    "primary_sector": "Power",
+    "years": [
+      2024,
+      2035,
+      2050
+    ],
+    "time_bucket": "Long-term",
+    "constraint_type": "Growth",
+    "metric": "Capacity",
+    "numbers": [
+      "20 million",
+      "2035",
+      "40%",
+      "2035 ",
+      "2024",
+      "2050 ",
+      "90%"
+    ]
+  },
+  {
+    "text": "Annual spending on grids rose by % a year on average between 2013 and 2024, increasing from under USD 300 billion to nearly USD 390 billion in 2024. In the CPS, it is projected to increase at 5% a year on average through to 2035, with annual grid-related investment spending reaching about USD 650 billion in 2035.",
+    "pdf_page_index": 28,
+    "page": 29,
+    "pdf_page": 29,
+    "scenario": "CPS",
+    "sectors": [
+      "Power"
+    ],
+    "primary_sector": "Power",
+    "years": [
+      2013,
+      2024,
+      2035
+    ],
+    "time_bucket": "Mid-term",
+    "constraint_type": "Growth",
+    "metric": "Unspecified",
+    "numbers": [
+      "2013 ",
+      "2024",
+      "300 billion",
+      "390 billion",
+      "2024",
+      "5%",
+      "2035",
+      "650 billion",
+      "2035"
+    ]
+  },
+  {
+    "text": "In the United States, investment in grid infrastructure more than doubled to nearly USD 110 billion between 2013 and 2024, supported by federal incentives and streamlined permitting processes. The European Union saw a 60% rise over the same period to nearly USD 70 billion, much of which was focused on the integration of variable renewables and cross-border grid development ( 200 2025- 2031- 2036- Billion USD (2024, MER) Transmission Distribution blank blank Transmission Distribution Emerging market and developing economies Advanced economies",
+    "pdf_page_index": 28,
+    "page": 29,
+    "pdf_page": 29,
+    "scenario": "Unspecified",
+    "sectors": [
+      "Power"
+    ],
+    "primary_sector": "Power",
+    "years": [
+      2013,
+      2024,
+      2025,
+      2031,
+      2036
+    ],
+    "time_bucket": "Long-term",
+    "constraint_type": "Growth",
+    "metric": "Unspecified",
+    "numbers": [
+      "110 billion",
+      "2013 ",
+      "2024",
+      "60%",
+      "70 billion",
+      "200 ",
+      "2025",
+      "2031",
+      "2036",
+      "2024"
+    ]
+  },
+  {
+    "text": "Grid investment in China more than doubles by 2035 in the CPS, as electricity demand continues to rise and renewables growth is much higher over the next decade than they were the last ten years. Investment in other emerging market and developing economies, which have recently lagged, nearly doubles to USD 160 billion annually by 2035, increasing at an annual rate of about 6%.",
+    "pdf_page_index": 29,
+    "page": 30,
+    "pdf_page": 30,
+    "scenario": "CPS",
+    "sectors": [
+      "Power"
+    ],
+    "primary_sector": "Power",
+    "years": [
+      2035
+    ],
+    "time_bucket": "Mid-term",
+    "constraint_type": "Growth",
+    "metric": "Electricity demand",
+    "numbers": [
+      "2035 ",
+      "160 billion",
+      "2035",
+      "6%"
+    ]
+  },
+  {
+    "text": "China accounted for more than 75% of oil demand growth over the past ten years, but this picture is changing, and India becomes the new epicentre of growth in oil demand. Half of the increase in demand for natural gas to 2035 is from the power and industry sectors in emerging market and developing economies in Asia Pacific and the Middle East.",
+    "pdf_page_index": 29,
+    "page": 30,
+    "pdf_page": 30,
+    "scenario": "Unspecified",
+    "sectors": [
+      "Oil",
+      "Gas",
+      "Power",
+      "Industry"
+    ],
+    "primary_sector": "Oil",
+    "years": [
+      2035
+    ],
+    "time_bucket": "Mid-term",
+    "constraint_type": "Growth",
+    "metric": "Oil demand",
+    "numbers": [
+      "75%",
+      "2035 "
+    ]
+  },
+  {
+    "text": "2050. By 2035, the United States is both the world\u2019s largest natural gas consumer at just over 1 000 bcm and the world\u2019s largest LNG exporter at 250 bcm.",
+    "pdf_page_index": 30,
+    "page": 31,
+    "pdf_page": 31,
+    "scenario": "Unspecified",
+    "sectors": [
+      "Gas"
+    ],
+    "primary_sector": "Gas",
+    "years": [
+      2035,
+      2050
+    ],
+    "time_bucket": "Long-term",
+    "constraint_type": "Trend",
+    "metric": "Unspecified",
+    "numbers": [
+      "2050",
+      "2035",
+      "1 ",
+      "000 bcm",
+      "250 bcm"
+    ]
+  },
+  {
+    "text": "Africa produced more than 7 mb/d of oil in 2024. Production dips slightly to 2035, and then picks up again to 7 mb/d in 2050 in the CPS.",
+    "pdf_page_index": 33,
+    "page": 34,
+    "pdf_page": 34,
+    "scenario": "CPS",
+    "sectors": [
+      "Oil"
+    ],
+    "primary_sector": "Oil",
+    "years": [
+      2024,
+      2035,
+      2050
+    ],
+    "time_bucket": "Long-term",
+    "constraint_type": "Trend",
+    "metric": "Unspecified",
+    "numbers": [
+      "7 mb/d",
+      "2024",
+      "2035",
+      "7 mb/d",
+      "2050 "
+    ]
+  },
+  {
+    "text": "Since 2022, India has emerged as a global swing supplier, refining volumes of Russian crude oil exports that previously flowed to Europe. India\u2019s refining capacity grows from 6 mb/d in 2024 by mb/d to 2035 which solidifies its role as a key exporter of transport fuel.",
+    "pdf_page_index": 36,
+    "page": 37,
+    "pdf_page": 37,
+    "scenario": "Unspecified",
+    "sectors": [
+      "Oil",
+      "Transport"
+    ],
+    "primary_sector": "Oil",
+    "years": [
+      2022,
+      2024,
+      2035
+    ],
+    "time_bucket": "Mid-term",
+    "constraint_type": "Growth",
+    "metric": "Capacity",
+    "numbers": [
+      "2022",
+      "6 mb/d",
+      "2024 ",
+      "2035 "
+    ]
+  },
+  {
+    "text": "Around 35% is more demand from the power sector and another 35% from industry. This is accompanied by investment in new infrastructure: the region adds 270 GW of new gas-fired power generation capacity to 2035, a 70% increase on current levels.",
+    "pdf_page_index": 39,
+    "page": 40,
+    "pdf_page": 40,
+    "scenario": "Unspecified",
+    "sectors": [
+      "Gas",
+      "Power",
+      "Industry"
+    ],
+    "primary_sector": "Gas",
+    "years": [
+      2035
+    ],
+    "time_bucket": "Mid-term",
+    "constraint_type": "Growth",
+    "metric": "Capacity",
+    "numbers": [
+      "35%",
+      "35%",
+      "270 GW",
+      "2035",
+      "70%"
+    ]
+  },
+  {
+    "text": "Saudi Arabia ramps up production of non-associated gas, increasing output by more than 75 bcm between 2024 and 2035 to meet growing electricity demand and to substitute for oil in the power system. Its Jafurah field, the region\u2019s largest unconventional, non-associated gas field, began production in 2024 and output is projected to exceed 20 bcm within five years.",
+    "pdf_page_index": 40,
+    "page": 41,
+    "pdf_page": 41,
+    "scenario": "Unspecified",
+    "sectors": [
+      "Oil",
+      "Gas",
+      "Power"
+    ],
+    "primary_sector": "Oil",
+    "years": [
+      2024,
+      2035
+    ],
+    "time_bucket": "Mid-term",
+    "constraint_type": "Growth",
+    "metric": "Electricity demand",
+    "numbers": [
+      "75 bcm",
+      "2024 ",
+      "2035 ",
+      "2024 ",
+      "20 bcm"
+    ]
+  },
+  {
+    "text": "At peak production, it will provide nearly 15% of Saudi Arabia\u2019s total gas output. to 2050 Natural gas supply growth is dominated by the Middle East after 2025",
+    "pdf_page_index": 40,
+    "page": 41,
+    "pdf_page": 41,
+    "scenario": "Unspecified",
+    "sectors": [
+      "Gas"
+    ],
+    "primary_sector": "Gas",
+    "years": [
+      2025,
+      2050
+    ],
+    "time_bucket": "Long-term",
+    "constraint_type": "Peak",
+    "metric": "Unspecified",
+    "numbers": [
+      "15%",
+      "2050 ",
+      "2025"
+    ]
+  },
+  {
+    "text": "This enables the legacy Yamburg and Urengoy fields to maintain output, with modest upside for the newer Bovanenkovo basin. The prospects for natural gas production in Australia differ by region and total production is broadly flat to 2035 (at around 165 bcm).",
+    "pdf_page_index": 41,
+    "page": 42,
+    "pdf_page": 42,
+    "scenario": "Unspecified",
+    "sectors": [
+      "Gas",
+      "Transport"
+    ],
+    "primary_sector": "Gas",
+    "years": [
+      2035
+    ],
+    "time_bucket": "Mid-term",
+    "constraint_type": "Trend",
+    "metric": "Unspecified",
+    "numbers": [
+      "2035 ",
+      "165 bcm"
+    ]
+  },
+  {
+    "text": "In Nigeria, efforts to boost the upstream sector lead to a near 15 bcm increase in natural gas production to 2035, and expansion of the LNG liquefaction plant on Bonny Island is set to further strengthen its position as an LNG exporter. Mozambique is also poised to increase production to support LNG exports, as the 18 bcm Mozambique LNG project is assumed to start around 2030.",
+    "pdf_page_index": 42,
+    "page": 43,
+    "pdf_page": 43,
+    "scenario": "Unspecified",
+    "sectors": [
+      "Gas"
+    ],
+    "primary_sector": "Gas",
+    "years": [
+      2030,
+      2035
+    ],
+    "time_bucket": "Mid-term",
+    "constraint_type": "Growth",
+    "metric": "Unspecified",
+    "numbers": [
+      "15 bcm",
+      "2035",
+      "18 bcm",
+      "2030"
+    ]
+  },
+  {
+    "text": "Trade Around 1 100 bcm of natural gas was traded over long distances in 2024, 45% by long- distance pipeline and 55% as LNG. A large new wave of LNG capacity is set to come online over the period to 2030: this new capacity is fully utilised in the CPS, mainly through increased exports to emerging market and developing economies in Asia.",
+    "pdf_page_index": 42,
+    "page": 43,
+    "pdf_page": 43,
+    "scenario": "CPS",
+    "sectors": [
+      "Gas"
+    ],
+    "primary_sector": "Gas",
+    "years": [
+      2024,
+      2030
+    ],
+    "time_bucket": "Short-term",
+    "constraint_type": "Growth",
+    "metric": "Capacity",
+    "numbers": [
+      "1 ",
+      "100 bcm",
+      "2024",
+      "45%",
+      "55%",
+      "2030"
+    ]
+  },
+  {
+    "text": "Southeast Asia imported around 35 bcm of LNG in 2024. Rapidly rising demand and declining domestic gas production increase this to 80 bcm by 2035 in the CPS, and an additional 50 bcm per year of regasification capacity is built to accommodate this growth.",
+    "pdf_page_index": 42,
+    "page": 43,
+    "pdf_page": 43,
+    "scenario": "CPS",
+    "sectors": [
+      "Gas"
+    ],
+    "primary_sector": "Gas",
+    "years": [
+      2024,
+      2035
+    ],
+    "time_bucket": "Mid-term",
+    "constraint_type": "Growth",
+    "metric": "Capacity",
+    "numbers": [
+      "35 bcm",
+      "2024",
+      "80 bcm",
+      "2035 ",
+      "50 bcm"
+    ]
+  },
+  {
+    "text": "In 2035, India imports 50 bcm of LNG, up from 35 bcm today. Other emerging markets in Asia, particularly Pakistan and Bangladesh, import around 75 bcm of LNG in 2035, a 60% increase on 2024 levels.",
+    "pdf_page_index": 42,
+    "page": 43,
+    "pdf_page": 43,
+    "scenario": "Unspecified",
+    "sectors": [
+      "Gas"
+    ],
+    "primary_sector": "Gas",
+    "years": [
+      2024,
+      2035
+    ],
+    "time_bucket": "Mid-term",
+    "constraint_type": "Growth",
+    "metric": "Unspecified",
+    "numbers": [
+      "2035",
+      "50 bcm",
+      "35 bcm",
+      "75 bcm",
+      "2035",
+      "60%",
+      "2024 "
+    ]
+  },
+  {
+    "text": "It delivered 120 bcm in 2024 to more than 45 countries, with its flexible, destination-free contracts allowing cargoes to be redirected quickly in response to market shifts. Its export capacity doubles by 2030, and it maintains its current role as the largest LNG exporter through to 2050 in the CPS.",
+    "pdf_page_index": 43,
+    "page": 44,
+    "pdf_page": 44,
+    "scenario": "CPS",
+    "sectors": [
+      "Gas"
+    ],
+    "primary_sector": "Gas",
+    "years": [
+      2024,
+      2030,
+      2050
+    ],
+    "time_bucket": "Long-term",
+    "constraint_type": "Growth",
+    "metric": "Capacity",
+    "numbers": [
+      "120 bcm",
+      "2024 ",
+      "45 ",
+      "2030",
+      "2050 "
+    ]
+  },
+  {
+    "text": "It exports more than 250 bcm of LNG in 2035, half of which goes to Asia, up from 30% in 2024 (The Middle East, led by Qatar, doubles its LNG exports in the CPS to 260 bcm in 2035, with the Ruwais LNG complex in the United Arab Emirates adding more than 10 bcm of new capacity by 2028. Russia doubles gas exports to China from 40 bcm in 2024 to 80 bcm in 2035.",
+    "pdf_page_index": 43,
+    "page": 44,
+    "pdf_page": 44,
+    "scenario": "CPS",
+    "sectors": [
+      "Gas"
+    ],
+    "primary_sector": "Gas",
+    "years": [
+      2024,
+      2028,
+      2035
+    ],
+    "time_bucket": "Mid-term",
+    "constraint_type": "Growth",
+    "metric": "Capacity",
+    "numbers": [
+      "250 bcm",
+      "2035",
+      "30%",
+      "2024 ",
+      "260 bcm",
+      "2035",
+      "10 bcm",
+      "2028",
+      "40 bcm",
+      "2024 ",
+      "80 bcm",
+      "2035"
+    ]
+  },
+  {
+    "text": "In the CPS, the increase in renewables electricity generation to 2035 corresponds to more than 85% of the increase in global electricity demand. As a result, renewables start to edge coal out in most regions apart from Southeast Asia.",
+    "pdf_page_index": 44,
+    "page": 45,
+    "pdf_page": 45,
+    "scenario": "CPS",
+    "sectors": [
+      "Coal",
+      "Power"
+    ],
+    "primary_sector": "Coal",
+    "years": [
+      2035
+    ],
+    "time_bucket": "Mid-term",
+    "constraint_type": "Growth",
+    "metric": "Electricity demand",
+    "numbers": [
+      "2035 ",
+      "85%"
+    ]
+  },
+  {
+    "text": "It reflects the state of technology and market conditions but does not include aspirational goals. \u2022 Total final consumption grows 1% annually to 2035 in the STEPS, with India and other emerging market and developing economies leading demand growth.",
+    "pdf_page_index": 49,
+    "page": 50,
+    "pdf_page": 50,
+    "scenario": "STEPS",
+    "sectors": [
+      "Cross-sector"
+    ],
+    "primary_sector": "Cross-sector",
+    "years": [
+      2035
+    ],
+    "time_bucket": "Mid-term",
+    "constraint_type": "Growth",
+    "metric": "Unspecified",
+    "numbers": [
+      "1%",
+      "2035 "
+    ]
+  },
+  {
+    "text": "Nuclear output grows 40% to 2035, maintaining a 9% share of electricity generation. The world moves firmly into the Age of Electricity in the STEPS, with electricity use rising four-times faster than overall energy demand to 2035.",
+    "pdf_page_index": 49,
+    "page": 50,
+    "pdf_page": 50,
+    "scenario": "STEPS",
+    "sectors": [
+      "Power"
+    ],
+    "primary_sector": "Power",
+    "years": [
+      2035
+    ],
+    "time_bucket": "Mid-term",
+    "constraint_type": "Growth",
+    "metric": "Capacity",
+    "numbers": [
+      "40%",
+      "2035",
+      "9%",
+      "2035"
+    ]
+  },
+  {
+    "text": "Total energy demand is 4% higher by 2035 in the STEPS in this Outlook than in the version in the World Energy Outlook-2024 (WEO-2024). The differences are largely due to upward revisions in coal demand (10% or 440 Mtce higher in 2035 in this Outlook, mainly for use in power generation in China and United States), and in natural gas demand (8% or 350 billion cubic metres [bcm]) higher in 2035 in this Outlook mainly for use in power generation in the United States.",
+    "pdf_page_index": 53,
+    "page": 54,
+    "pdf_page": 54,
+    "scenario": "STEPS",
+    "sectors": [
+      "Gas",
+      "Coal",
+      "Power"
+    ],
+    "primary_sector": "Gas",
+    "years": [
+      2024,
+      2035
+    ],
+    "time_bucket": "Mid-term",
+    "constraint_type": "Trend",
+    "metric": "Gas demand",
+    "numbers": [
+      "4%",
+      "2035 ",
+      "2024 ",
+      "2024",
+      "10%",
+      "440 ",
+      "2035 ",
+      "8%",
+      "350 billion",
+      "2035 "
+    ]
+  },
+  {
+    "text": "In advanced economies, each main sector represents close to one-third of the total, with the share of industry being the smallest. In emerging market and developing economies, by contrast, industry continues to account for the largest portion of total final consumption up to 2035, with its share of the total being as much as 60% in China and nearly half in India today.",
+    "pdf_page_index": 55,
+    "page": 56,
+    "pdf_page": 56,
+    "scenario": "Unspecified",
+    "sectors": [
+      "Industry"
+    ],
+    "primary_sector": "Industry",
+    "years": [
+      2035
+    ],
+    "time_bucket": "Mid-term",
+    "constraint_type": "Trend",
+    "metric": "Unspecified",
+    "numbers": [
+      "2035",
+      "60%"
+    ]
+  },
+  {
+    "text": "179 Indonesia and the United States. By 2035, bioenergy accounts for around 20-30% of transport energy use in Brazil and Indonesia, and close to 10% in the United States and the European Union.",
+    "pdf_page_index": 57,
+    "page": 58,
+    "pdf_page": 58,
+    "scenario": "Unspecified",
+    "sectors": [
+      "Transport"
+    ],
+    "primary_sector": "Transport",
+    "years": [
+      2035
+    ],
+    "time_bucket": "Mid-term",
+    "constraint_type": "Trend",
+    "metric": "Unspecified",
+    "numbers": [
+      "179 ",
+      "2035",
+      "20",
+      "30%",
+      "10%"
+    ]
+  },
+  {
+    "text": "Trends in energy carriers vary across transport modes, with electrification leading in rail and road, while alternative fuels gain ground in shipping and aviation. \uf06e Road transport still relies on oil, though electricity meets close to 7% of demand by 2035 in the STEPS, up from less than 1% today.",
+    "pdf_page_index": 57,
+    "page": 58,
+    "pdf_page": 58,
+    "scenario": "STEPS",
+    "sectors": [
+      "Oil",
+      "Power",
+      "Transport"
+    ],
+    "primary_sector": "Oil",
+    "years": [
+      2035
+    ],
+    "time_bucket": "Mid-term",
+    "constraint_type": "Trend",
+    "metric": "Unspecified",
+    "numbers": [
+      "7%",
+      "2035 ",
+      "1%"
+    ]
+  },
+  {
+    "text": "By 2050, oil use in aviation exceeds 10 mb/d, more than double the combined oil use of shipping and rail. Box \u22b3 How rail development is reducing oil demand in China",
+    "pdf_page_index": 58,
+    "page": 59,
+    "pdf_page": 59,
+    "scenario": "Unspecified",
+    "sectors": [
+      "Oil",
+      "Transport"
+    ],
+    "primary_sector": "Oil",
+    "years": [
+      2050
+    ],
+    "time_bucket": "Long-term",
+    "constraint_type": "Growth",
+    "metric": "Oil demand",
+    "numbers": [
+      "2050",
+      "10 mb/d"
+    ]
+  },
+  {
+    "text": "In 2024, global electric car 2 sales rose by around 25% year-on-year to over 17 million, accounting for one-in-five cars sold worldwide. Sales are expected to reach over 20 million in 2025, and to account for over one-in-four cars sold worldwide.",
+    "pdf_page_index": 59,
+    "page": 60,
+    "pdf_page": 60,
+    "scenario": "Unspecified",
+    "sectors": [
+      "Cross-sector"
+    ],
+    "primary_sector": "Cross-sector",
+    "years": [
+      2024,
+      2025
+    ],
+    "time_bucket": "Short-term",
+    "constraint_type": "Trend",
+    "metric": "Unspecified",
+    "numbers": [
+      "2024",
+      "2 ",
+      "25%",
+      "17 million",
+      "20 million",
+      "2025"
+    ]
+  },
+  {
+    "text": "China alone is on track to see the sale of over 14 million electric cars in 2025 \u2013 more than the entire world total of electric car sales two years ago. Electric car sales in the European Union fell in 2024 following subsidy withdrawals in Germany, but the first-half of 2025 shows a nearly 22% year-on-year increase, driven by the introduction of around ten new battery electric models priced below EUR 25 000 and stricter CO2 emissions standards.",
+    "pdf_page_index": 59,
+    "page": 60,
+    "pdf_page": 60,
+    "scenario": "Unspecified",
+    "sectors": [
+      "Cross-sector"
+    ],
+    "primary_sector": "Cross-sector",
+    "years": [
+      2024,
+      2025
+    ],
+    "time_bucket": "Short-term",
+    "constraint_type": "Growth",
+    "metric": "Emissions",
+    "numbers": [
+      "14 million",
+      "2025 ",
+      "2024 ",
+      "2025 ",
+      "22%",
+      "25 ",
+      "000 ",
+      "2 "
+    ]
+  },
+  {
+    "text": "In the United States, electric car sales rose 10% in 2024, though growth slowed to 4% in the first-half of 2025. EV adoption continues to rise in emerging market and developing economies, particularly in Viet Nam, Mexico, Indonesia, Thailand and Brazil.",
+    "pdf_page_index": 59,
+    "page": 60,
+    "pdf_page": 60,
+    "scenario": "Unspecified",
+    "sectors": [
+      "Cross-sector"
+    ],
+    "primary_sector": "Cross-sector",
+    "years": [
+      2024,
+      2025
+    ],
+    "time_bucket": "Short-term",
+    "constraint_type": "Growth",
+    "metric": "Unspecified",
+    "numbers": [
+      "10%",
+      "2024",
+      "4%",
+      "2025"
+    ]
+  },
+  {
+    "text": "For instance, the EV market share in Viet Nam exceeds 40%. In the STEPS, EVs account for around 50% of sales of all vehicle types by 2035, resulting in over 10 mb/d of oil savings.",
+    "pdf_page_index": 59,
+    "page": 60,
+    "pdf_page": 60,
+    "scenario": "STEPS",
+    "sectors": [
+      "Oil",
+      "Transport"
+    ],
+    "primary_sector": "Oil",
+    "years": [
+      2035
+    ],
+    "time_bucket": "Mid-term",
+    "constraint_type": "Trend",
+    "metric": "Unspecified",
+    "numbers": [
+      "40%",
+      "50%",
+      "2035",
+      "10 mb/d"
+    ]
+  },
+  {
+    "text": "By 2050, half of the global light-duty vehicle fleet is electric. Sales of electric two/three-wheelers and buses rise to 80% and 45% respectively of total sales by 2050.",
+    "pdf_page_index": 60,
+    "page": 61,
+    "pdf_page": 61,
+    "scenario": "Unspecified",
+    "sectors": [
+      "Transport"
+    ],
+    "primary_sector": "Transport",
+    "years": [
+      2050
+    ],
+    "time_bucket": "Long-term",
+    "constraint_type": "Growth",
+    "metric": "Unspecified",
+    "numbers": [
+      "2050",
+      "80%",
+      "45%",
+      "2050"
+    ]
+  },
+  {
+    "text": "to expand gas distribution networks. By 2035, more than 700 million people gain access to clean cooking technologies, increasing the global access rate to over 80%.",
+    "pdf_page_index": 62,
+    "page": 63,
+    "pdf_page": 63,
+    "scenario": "Unspecified",
+    "sectors": [
+      "Gas"
+    ],
+    "primary_sector": "Gas",
+    "years": [
+      2035
+    ],
+    "time_bucket": "Mid-term",
+    "constraint_type": "Growth",
+    "metric": "Unspecified",
+    "numbers": [
+      "2035",
+      "700 million",
+      "80%"
+    ]
+  },
+  {
+    "text": "185 boom in sales during the 2022 energy crisis and its immediate aftermath. There are now signs of renewed growth: we estimate that global sales increased by about 5% in the first-half of 2025 compared with the same period in 2024.",
+    "pdf_page_index": 63,
+    "page": 64,
+    "pdf_page": 64,
+    "scenario": "Unspecified",
+    "sectors": [
+      "Cross-sector"
+    ],
+    "primary_sector": "Cross-sector",
+    "years": [
+      2022,
+      2024,
+      2025
+    ],
+    "time_bucket": "Short-term",
+    "constraint_type": "Growth",
+    "metric": "Unspecified",
+    "numbers": [
+      "185 ",
+      "2022 ",
+      "5%",
+      "2025 ",
+      "2024"
+    ]
+  },
+  {
+    "text": "Subsidies for domestic heat pump water heaters further support growth in the outlook. By 2035 in the STEPS, heat pumps meet almost 40% of space heating demand in Japan and the United States, while the share of space heating provided by heat pumps doubles in the European Union and China (in 2035 relative to today, and reduce the energy intensity of heating by up to 8% in major heating markets.",
+    "pdf_page_index": 63,
+    "page": 64,
+    "pdf_page": 64,
+    "scenario": "STEPS",
+    "sectors": [
+      "Buildings"
+    ],
+    "primary_sector": "Buildings",
+    "years": [
+      2035
+    ],
+    "time_bucket": "Mid-term",
+    "constraint_type": "Growth",
+    "metric": "Unspecified",
+    "numbers": [
+      "2035 ",
+      "40%",
+      "2035 ",
+      "8%"
+    ]
+  },
+  {
+    "text": "If all countries with established MEPS for air conditioners were to raise their standards to match those in Japan, global cooling demand would be 25% lower in 2035 than the 2 100 TWh projected in the STEPS. China United States European Union Japan Other Heat pump sales GW 8% 16% 24% 32% 40% Space heating demand met by heat pumps",
+    "pdf_page_index": 64,
+    "page": 65,
+    "pdf_page": 65,
+    "scenario": "STEPS",
+    "sectors": [
+      "Buildings"
+    ],
+    "primary_sector": "Buildings",
+    "years": [
+      2035
+    ],
+    "time_bucket": "Mid-term",
+    "constraint_type": "Trend",
+    "metric": "Unspecified",
+    "numbers": [
+      "25%",
+      "2035 ",
+      "2 ",
+      "100 TWh",
+      "8%",
+      "16%",
+      "24%",
+      "32%",
+      "40%"
+    ]
+  },
+  {
+    "text": "Continuing urbanisation and economic development mean that it is set to reach 300 billion m2 by 2030. The number of countries with mandatory energy-related building energy codes was 25 in 2000 and extended to 85 in 2025.",
+    "pdf_page_index": 65,
+    "page": 66,
+    "pdf_page": 66,
+    "scenario": "Unspecified",
+    "sectors": [
+      "Cross-sector"
+    ],
+    "primary_sector": "Cross-sector",
+    "years": [
+      2000,
+      2025,
+      2030
+    ],
+    "time_bucket": "Short-term",
+    "constraint_type": "Trend",
+    "metric": "Unspecified",
+    "numbers": [
+      "300 billion",
+      "2 ",
+      "2030",
+      "25 ",
+      "2000 ",
+      "85 ",
+      "2025"
+    ]
+  },
+  {
+    "text": "191 underway since 2014, led by China (see Chapter 3, Box ). If the global proportion of energy-intensive industries in industrial value added and their structure remained static from today to 2035, energy demand in industry would be about 37 EJ (19%) higher than in the STEPS (\uf06e Technical efficiency improvements are driven both by policies \u2013 such as MEPS for motors, energy audits and funding support \u2013 and by cost-effective technological improvements.",
+    "pdf_page_index": 69,
+    "page": 70,
+    "pdf_page": 70,
+    "scenario": "STEPS",
+    "sectors": [
+      "Industry"
+    ],
+    "primary_sector": "Industry",
+    "years": [
+      2014,
+      2035
+    ],
+    "time_bucket": "Mid-term",
+    "constraint_type": "Trend",
+    "metric": "Unspecified",
+    "numbers": [
+      "191 ",
+      "2014",
+      "3",
+      "2035",
+      "37 ",
+      "19%"
+    ]
+  },
+  {
+    "text": "The industry sector adds around 260 TWh per year to its current demand for electricity through to 2035, which is roughly as much as electricity demand today in Spain. Some of this growth in demand, nearly 15%, reflects the use of new electric technologies in industry, but most of it, around 85%, stems from activity growth and structural shifts to non-energy-intensive industries.",
+    "pdf_page_index": 70,
+    "page": 71,
+    "pdf_page": 71,
+    "scenario": "Unspecified",
+    "sectors": [
+      "Power",
+      "Industry"
+    ],
+    "primary_sector": "Power",
+    "years": [
+      2035
+    ],
+    "time_bucket": "Mid-term",
+    "constraint_type": "Growth",
+    "metric": "Electricity demand",
+    "numbers": [
+      "260 TWh",
+      "2035",
+      "15%",
+      "85%"
+    ]
+  },
+  {
+    "text": "In India, electricity use in the chemicals sub-sector more than doubles by 2035, while 20% 40% 60% 80% TWh Chemicals Iron and steel Machinery Aluminium Food and tobacco Cement",
+    "pdf_page_index": 70,
+    "page": 71,
+    "pdf_page": 71,
+    "scenario": "Unspecified",
+    "sectors": [
+      "Power",
+      "Industry"
+    ],
+    "primary_sector": "Power",
+    "years": [
+      2035
+    ],
+    "time_bucket": "Mid-term",
+    "constraint_type": "Growth",
+    "metric": "Unspecified",
+    "numbers": [
+      "2035",
+      "20%",
+      "40%",
+      "60%",
+      "80%"
+    ]
+  },
+  {
+    "text": "Emerging market and developing economies account for around three-quarters of the additional global electricity demand by 2035 in the STEPS. China alone is responsible for 40% of this growth, maintaining its position as the world\u2019s largest electricity consumer.",
+    "pdf_page_index": 72,
+    "page": 73,
+    "pdf_page": 73,
+    "scenario": "STEPS",
+    "sectors": [
+      "Power"
+    ],
+    "primary_sector": "Power",
+    "years": [
+      2035
+    ],
+    "time_bucket": "Mid-term",
+    "constraint_type": "Growth",
+    "metric": "Electricity demand",
+    "numbers": [
+      "2035 ",
+      "40%"
+    ]
+  },
+  {
+    "text": "In the STEPS, electricity accounts for over one-quarter of total final consumption by 2035, up from 21% in 2024. Electric technologies are much more efficient than others, for example, electric cars are two-to-four-times more efficient than fossil fuel alternatives, and heat pumps are around three-to-five-times more efficient.",
+    "pdf_page_index": 74,
+    "page": 75,
+    "pdf_page": 75,
+    "scenario": "STEPS",
+    "sectors": [
+      "Power"
+    ],
+    "primary_sector": "Power",
+    "years": [
+      2024,
+      2035
+    ],
+    "time_bucket": "Mid-term",
+    "constraint_type": "Trend",
+    "metric": "Unspecified",
+    "numbers": [
+      "2035",
+      "21%",
+      "2024"
+    ]
+  },
+  {
+    "text": "197 temperature heat above 400 \u00b0C, and production processes depend on specific materials, so tailored technologies need to be developed to electrify the processes involved either directly or through the use of electrolytic hydrogen (see Chapter 7, Box ). In the transport sector, limitations in battery energy density make it difficult to electrify aviation and shipping, which together represent around 25% of non-electric transport energy demand in 2035.",
+    "pdf_page_index": 75,
+    "page": 76,
+    "pdf_page": 76,
+    "scenario": "Unspecified",
+    "sectors": [
+      "Transport"
+    ],
+    "primary_sector": "Transport",
+    "years": [
+      2035
+    ],
+    "time_bucket": "Mid-term",
+    "constraint_type": "Trend",
+    "metric": "Unspecified",
+    "numbers": [
+      "197 ",
+      "400 ",
+      "7",
+      "25%",
+      "2035"
+    ]
+  },
+  {
+    "text": "steady decline which reflects the commitment that more than 55 countries have made to phase out its unabated use. By 2035, coal-fired generation is around 20% below today\u2019s level, and is no longer the dominant source of electricity.",
+    "pdf_page_index": 76,
+    "page": 77,
+    "pdf_page": 77,
+    "scenario": "Unspecified",
+    "sectors": [
+      "Coal",
+      "Power"
+    ],
+    "primary_sector": "Coal",
+    "years": [
+      2035
+    ],
+    "time_bucket": "Mid-term",
+    "constraint_type": "Decline",
+    "metric": "Capacity",
+    "numbers": [
+      "55 ",
+      "2035",
+      "20%"
+    ]
+  },
+  {
+    "text": "Solar PV and wind are the main contributors, with their combined share of generation increasing from 15% today to 40% in 2035 and 55% in 2050. Nuclear power maintains a share of just under 10% throughout the period.",
+    "pdf_page_index": 76,
+    "page": 77,
+    "pdf_page": 77,
+    "scenario": "Unspecified",
+    "sectors": [
+      "Power"
+    ],
+    "primary_sector": "Power",
+    "years": [
+      2035,
+      2050
+    ],
+    "time_bucket": "Long-term",
+    "constraint_type": "Trend",
+    "metric": "Capacity",
+    "numbers": [
+      "15%",
+      "40%",
+      "2035 ",
+      "55%",
+      "2050",
+      "10%"
+    ]
+  },
+  {
+    "text": "In China, the nuclear share also edges up, outpacing soaring electricity demand, as the size of the nuclear fleet becomes the largest in the world in the early 2030s and it accounts of nearly half of global nuclear expansion to 2050. Box \u22b3 Competitiveness of solar PV, wind and battery storage Since 2010, the levelised cost of electricity (LCOE) has declined by 90% for solar PV, 70% for wind generation and 90% for batteries, driven down by innovation, manufacturing gains and improved performance.",
+    "pdf_page_index": 79,
+    "page": 80,
+    "pdf_page": 80,
+    "scenario": "Unspecified",
+    "sectors": [
+      "Power"
+    ],
+    "primary_sector": "Power",
+    "years": [
+      2010,
+      2030,
+      2050
+    ],
+    "time_bucket": "Long-term",
+    "constraint_type": "Decline",
+    "metric": "Electricity demand",
+    "numbers": [
+      "2030",
+      "2050",
+      "2010",
+      "90%",
+      "70%",
+      "90%"
+    ]
+  },
+  {
+    "text": "Costs are projected to decline further by about 40% for solar PV, 30% for batteries and about 10% for onshore wind from 2024 to 2035. In the STEPS, projected LCOEs for 2035 show that new solar PV, onshore and offshore wind have similar or lower average generation costs than new coal, gas and nuclear in the United States, European Union and China.",
+    "pdf_page_index": 79,
+    "page": 80,
+    "pdf_page": 80,
+    "scenario": "STEPS",
+    "sectors": [
+      "Gas",
+      "Coal",
+      "Power"
+    ],
+    "primary_sector": "Gas",
+    "years": [
+      2024,
+      2035
+    ],
+    "time_bucket": "Mid-term",
+    "constraint_type": "Decline",
+    "metric": "Capacity",
+    "numbers": [
+      "40%",
+      "30%",
+      "10%",
+      "2024 ",
+      "2035",
+      "2035 "
+    ]
+  },
+  {
+    "text": "Including onshore wind in hybrid projects could reduce these costs by 10\u201345%, making them competitive with coal, gas and nuclear, and similar to average generation costs in 2035. This level of availability and cost would make solar PV plus storage and hybrid projects attractive for the grid, or consumers that require 24/7 electricity, including industrial applications and data centres (IEA, 2025c).",
+    "pdf_page_index": 81,
+    "page": 82,
+    "pdf_page": 82,
+    "scenario": "Unspecified",
+    "sectors": [
+      "Gas",
+      "Coal",
+      "Power",
+      "Industry"
+    ],
+    "primary_sector": "Gas",
+    "years": [
+      2025,
+      2035
+    ],
+    "time_bucket": "Mid-term",
+    "constraint_type": "Trend",
+    "metric": "Capacity",
+    "numbers": [
+      "10",
+      "45%",
+      "2035",
+      "24",
+      "7 ",
+      "2025"
+    ]
+  },
+  {
+    "text": "accelerated repowering, 2010-2050 Shortening the replacement schedule for solar PV panels could drive further market growth, expanding it by up to 55% in 2035 without raising operational solar capacity",
+    "pdf_page_index": 84,
+    "page": 85,
+    "pdf_page": 85,
+    "scenario": "Unspecified",
+    "sectors": [
+      "Power",
+      "Industry"
+    ],
+    "primary_sector": "Power",
+    "years": [
+      2010,
+      2035,
+      2050
+    ],
+    "time_bucket": "Long-term",
+    "constraint_type": "Growth",
+    "metric": "Capacity",
+    "numbers": [
+      "2010",
+      "2050 ",
+      "55%",
+      "2035 "
+    ]
+  },
+  {
+    "text": "According to our analysis, an accelerated repowering schedule could lead to a substantial increase in the size of the solar PV panel market, benefiting from the current oversupply of solar products (projection period to 2050, an accelerated repowering schedule for solar PV power around the world could increase the solar PV panel market size by up to 60% in 2035 compared to the level in the STEPS, and double it by 2040, sustaining continued long- term market growth. The accelerated repowering schedule would also raise the average performance of the solar PV fleet, due to faster stock turnover and uptake of higher efficiency panels.",
+    "pdf_page_index": 84,
+    "page": 85,
+    "pdf_page": 85,
+    "scenario": "STEPS",
+    "sectors": [
+      "Power"
+    ],
+    "primary_sector": "Power",
+    "years": [
+      2035,
+      2040,
+      2050
+    ],
+    "time_bucket": "Long-term",
+    "constraint_type": "Growth",
+    "metric": "Unspecified",
+    "numbers": [
+      "2050",
+      "60%",
+      "2035 ",
+      "2040"
+    ]
+  },
+  {
+    "text": "For example, a 2% absolute increase in the average efficiency of a panel would result in over 10% higher electricity output from each panel with the same rated capacity. By 2035, that would mean up to 15% higher electricity output from solar PV globally.",
+    "pdf_page_index": 84,
+    "page": 85,
+    "pdf_page": 85,
+    "scenario": "Unspecified",
+    "sectors": [
+      "Power"
+    ],
+    "primary_sector": "Power",
+    "years": [
+      2035
+    ],
+    "time_bucket": "Mid-term",
+    "constraint_type": "Growth",
+    "metric": "Capacity",
+    "numbers": [
+      "2%",
+      "10%",
+      "2035",
+      "15%"
+    ]
+  },
+  {
+    "text": "Advanced economies see a 10% grid expansion by 2035, while emerging market and developing economies expand their grids by 40% over the same period. In parallel, ageing infrastructure must be replaced \u2013 nearly 20 million km by 2035 and another 30 million by 2050 \u2013 with advanced economies facing the most urgent needs due to the age of their existing assets (see Chapter 3).",
+    "pdf_page_index": 85,
+    "page": 86,
+    "pdf_page": 86,
+    "scenario": "Unspecified",
+    "sectors": [
+      "Power"
+    ],
+    "primary_sector": "Power",
+    "years": [
+      2035,
+      2050
+    ],
+    "time_bucket": "Long-term",
+    "constraint_type": "Growth",
+    "metric": "Unspecified",
+    "numbers": [
+      "10%",
+      "2035",
+      "40%",
+      "20 million",
+      "2035 ",
+      "30 million",
+      "2050 ",
+      "3"
+    ]
+  },
+  {
+    "text": "These constraints also extend to raw materials. For example, grid expansion is a major driver of copper demand, and current project pipelines suggest a potential 30% shortfall in copper supply by 2035 (IEA, 2025e).",
+    "pdf_page_index": 85,
+    "page": 86,
+    "pdf_page": 86,
+    "scenario": "Unspecified",
+    "sectors": [
+      "Power"
+    ],
+    "primary_sector": "Power",
+    "years": [
+      2025,
+      2035
+    ],
+    "time_bucket": "Mid-term",
+    "constraint_type": "Decline",
+    "metric": "Unspecified",
+    "numbers": [
+      "30%",
+      "2035 ",
+      "2025"
+    ]
+  },
+  {
+    "text": "Canada adds mb/d to 2035, supported by pipeline expansions that facilitate debottlenecking and increased NGL volumes from shale plays. Supply in Mexico fell marginally in 2024 to 2 mb/d.",
+    "pdf_page_index": 88,
+    "page": 89,
+    "pdf_page": 89,
+    "scenario": "Unspecified",
+    "sectors": [
+      "Cross-sector"
+    ],
+    "primary_sector": "Cross-sector",
+    "years": [
+      2024,
+      2035
+    ],
+    "time_bucket": "Mid-term",
+    "constraint_type": "Growth",
+    "metric": "Unspecified",
+    "numbers": [
+      "2035",
+      "2024 ",
+      "2 mb/d"
+    ]
+  },
+  {
+    "text": "Diesel, gasoline and kerosene include transport use only; naphtha, LPG and ethane include petrochemical use only. Despite weak demand growth for refined products in the STEPS, 6 mb/d of new refining capacity comes online in the period to 2035, which is largely offset by 5 mb/d of closures.",
+    "pdf_page_index": 90,
+    "page": 91,
+    "pdf_page": 91,
+    "scenario": "STEPS",
+    "sectors": [
+      "Oil",
+      "Gas",
+      "Transport"
+    ],
+    "primary_sector": "Oil",
+    "years": [
+      2035
+    ],
+    "time_bucket": "Mid-term",
+    "constraint_type": "Growth",
+    "metric": "Capacity",
+    "numbers": [
+      "6 mb/d",
+      "2035",
+      "5 mb/d"
+    ]
+  },
+  {
+    "text": "North American exports increase by more than 2 mb/d to 2035, although Mexico soon becomes a net importer. Africa also becomes a net oil importer in aggregate as increased production from new producers, including Uganda and Namibia, is more than offset by declining production from mature producers, mainly Algeria, Angola and Nigeria, and by increased demand.",
+    "pdf_page_index": 91,
+    "page": 92,
+    "pdf_page": 92,
+    "scenario": "Unspecified",
+    "sectors": [
+      "Oil"
+    ],
+    "primary_sector": "Oil",
+    "years": [
+      2035
+    ],
+    "time_bucket": "Mid-term",
+    "constraint_type": "Growth",
+    "metric": "Unspecified",
+    "numbers": [
+      "2 mb/d",
+      "2035"
+    ]
+  },
+  {
+    "text": "By 2035, the Middle East accounts for just under 20% of global gas use in the power sector, up from 15% today. Power Industry Buildings Transport Other bcm Asia Pacific North America Middle East Eurasia Europe Africa Central Int.",
+    "pdf_page_index": 92,
+    "page": 93,
+    "pdf_page": 93,
+    "scenario": "Unspecified",
+    "sectors": [
+      "Gas",
+      "Power",
+      "Transport",
+      "Buildings",
+      "Industry"
+    ],
+    "primary_sector": "Gas",
+    "years": [
+      2035
+    ],
+    "time_bucket": "Mid-term",
+    "constraint_type": "Trend",
+    "metric": "Unspecified",
+    "numbers": [
+      "2035",
+      "20%",
+      "15%"
+    ]
+  },
+  {
+    "text": "215 Supply Growth in natural gas supply is led by the Middle East and the United States in the STEPS through to 2035, with their combined output increasing by close to 450 bcm (number of gas producing countries, including Australia and Norway, see their output decline as fields mature in the period to 2035. The Middle East and United States drive growth in global gas supply to 2035, and they add around 250 bcm to their combined export capacity The United States maintains its position as the world\u2019s largest natural gas producing country.",
+    "pdf_page_index": 93,
+    "page": 94,
+    "pdf_page": 94,
+    "scenario": "STEPS",
+    "sectors": [
+      "Gas"
+    ],
+    "primary_sector": "Gas",
+    "years": [
+      2035
+    ],
+    "time_bucket": "Mid-term",
+    "constraint_type": "Decline",
+    "metric": "Capacity",
+    "numbers": [
+      "215 ",
+      "2035",
+      "450 bcm",
+      "2035",
+      "2035",
+      "250 bcm"
+    ]
+  },
+  {
+    "text": "Still, in 2030, around 65 bcm of available LNG capacity is surplus to requirements in the STEPS. Based on currently announced projects, some of which come online after 2030, this surplus is gradually worked off by 2035 and by 2040 around 65 bcm per year of new LNG export capacity is required.",
+    "pdf_page_index": 94,
+    "page": 95,
+    "pdf_page": 95,
+    "scenario": "STEPS",
+    "sectors": [
+      "Gas"
+    ],
+    "primary_sector": "Gas",
+    "years": [
+      2030,
+      2035,
+      2040
+    ],
+    "time_bucket": "Long-term",
+    "constraint_type": "Trend",
+    "metric": "Capacity",
+    "numbers": [
+      "2030",
+      "65 bcm",
+      "2030",
+      "2035 ",
+      "2040 ",
+      "65 bcm"
+    ]
+  },
+  {
+    "text": "These factors reduce the nameplate capacity of LNG terminals down to the available capacity. Around 290 bcm of new nameplate LNG capacity is currently under construction and is set to come online by 2030, and around 10 bcm of capacity is likely to be shut down by 2030 as plants reach the end of their technical or economic lifetime.",
+    "pdf_page_index": 94,
+    "page": 95,
+    "pdf_page": 95,
+    "scenario": "Unspecified",
+    "sectors": [
+      "Gas"
+    ],
+    "primary_sector": "Gas",
+    "years": [
+      2030
+    ],
+    "time_bucket": "Short-term",
+    "constraint_type": "Trend",
+    "metric": "Capacity",
+    "numbers": [
+      "290 bcm",
+      "2030",
+      "10 bcm",
+      "2030 "
+    ]
+  },
+  {
+    "text": "217 imports by around 55 bcm to 2035, and an additional 20 bcm of pipeline gas is imported through expansion of the Power of Siberia I and Far East pipelines from Russia. Total imports in 2035 in China reach around 250 bcm, more than double the volumes of India, the next largest importing country.",
+    "pdf_page_index": 95,
+    "page": 96,
+    "pdf_page": 96,
+    "scenario": "Unspecified",
+    "sectors": [
+      "Gas",
+      "Power"
+    ],
+    "primary_sector": "Gas",
+    "years": [
+      2035
+    ],
+    "time_bucket": "Mid-term",
+    "constraint_type": "Growth",
+    "metric": "Unspecified",
+    "numbers": [
+      "217 ",
+      "55 bcm",
+      "2035",
+      "20 bcm",
+      "2035 ",
+      "250 bcm"
+    ]
+  },
+  {
+    "text": "China becomes increasingly influential in balancing global gas markets through to 2035 as it actively manages its portfolio of pipeline, LNG, domestic production and storage assets, backed by a mix of long-term, short-term and flexible gas contracts. the STEPS, 2024-2035 LNG meets 285 bcm of the growth in natural gas demand in key importing regions",
+    "pdf_page_index": 95,
+    "page": 96,
+    "pdf_page": 96,
+    "scenario": "STEPS",
+    "sectors": [
+      "Gas"
+    ],
+    "primary_sector": "Gas",
+    "years": [
+      2024,
+      2035
+    ],
+    "time_bucket": "Mid-term",
+    "constraint_type": "Growth",
+    "metric": "Gas demand",
+    "numbers": [
+      "2035 ",
+      "2024",
+      "2035 ",
+      "285 bcm"
+    ]
+  },
+  {
+    "text": "These projects bring its total nameplate LNG capacity to 300 bcm per year in 2030. Its LNG exports reach 240 bcm by 2035 and its pipeline exports to 80 bcm.",
+    "pdf_page_index": 95,
+    "page": 96,
+    "pdf_page": 96,
+    "scenario": "Unspecified",
+    "sectors": [
+      "Gas"
+    ],
+    "primary_sector": "Gas",
+    "years": [
+      2030,
+      2035
+    ],
+    "time_bucket": "Mid-term",
+    "constraint_type": "Trend",
+    "metric": "Capacity",
+    "numbers": [
+      "300 bcm",
+      "2030",
+      "240 bcm",
+      "2035 ",
+      "80 bcm"
+    ]
+  },
+  {
+    "text": "Its LNG supply capacity is set to expand from around 100 bcm in 2024 to around 200 bcm in 2035. Its North Field West project, announced in 2024, could further add to its capacity.",
+    "pdf_page_index": 96,
+    "page": 97,
+    "pdf_page": 97,
+    "scenario": "Unspecified",
+    "sectors": [
+      "Gas"
+    ],
+    "primary_sector": "Gas",
+    "years": [
+      2024,
+      2035
+    ],
+    "time_bucket": "Mid-term",
+    "constraint_type": "Growth",
+    "metric": "Capacity",
+    "numbers": [
+      "100 bcm",
+      "2024 ",
+      "200 bcm",
+      "2035",
+      "2024"
+    ]
+  },
+  {
+    "text": "LNG export capacity in Australia stays flat, and it maintains its position as the third-largest LNG exporter throughout the outlook period. In Canada, the 19 bcm per year LNG Canada project began operation in 2025, while two smaller projects are scheduled to start before 2030.",
+    "pdf_page_index": 96,
+    "page": 97,
+    "pdf_page": 97,
+    "scenario": "Unspecified",
+    "sectors": [
+      "Gas"
+    ],
+    "primary_sector": "Gas",
+    "years": [
+      2025,
+      2030
+    ],
+    "time_bucket": "Short-term",
+    "constraint_type": "Trend",
+    "metric": "Capacity",
+    "numbers": [
+      "19 bcm",
+      "2025",
+      "2030"
+    ]
+  },
+  {
+    "text": "In Africa, around 40 bcm worth of new projects are under development, including the 18 bcm per year Mozambique LNG project that has seen multiple delays and is not expected to come online until around 2030. Taking into account capacity retirements, LNG exports from Africa reach around 75 bcm in 2035.",
+    "pdf_page_index": 96,
+    "page": 97,
+    "pdf_page": 97,
+    "scenario": "Unspecified",
+    "sectors": [
+      "Gas"
+    ],
+    "primary_sector": "Gas",
+    "years": [
+      2030,
+      2035
+    ],
+    "time_bucket": "Mid-term",
+    "constraint_type": "Trend",
+    "metric": "Capacity",
+    "numbers": [
+      "40 bcm",
+      "18 bcm",
+      "2030",
+      "75 bcm",
+      "2035"
+    ]
+  },
+  {
+    "text": "Russian LNG production peaks at close to 55 bcm around 2040, far below the government target level of more than 150 bcm by 2036. Australia Middle Caspian Russia United Other Africa Australia Middle East Caspian Russia United States Other exporters Africa Asia 300 bcm 70 bcm European Union 110 bcm 170 bcm Asia 580 bcm 90 bcm European Union 145 bcm 90 bcm States East exporters LNG Pipeline LNG Pipeline Exports to Asia: Exports to the EU:",
+    "pdf_page_index": 96,
+    "page": 97,
+    "pdf_page": 97,
+    "scenario": "Unspecified",
+    "sectors": [
+      "Gas"
+    ],
+    "primary_sector": "Gas",
+    "years": [
+      2036,
+      2040
+    ],
+    "time_bucket": "Long-term",
+    "constraint_type": "Peak",
+    "metric": "Unspecified",
+    "numbers": [
+      "55 bcm",
+      "2040",
+      "150 bcm",
+      "2036",
+      "300 bcm",
+      "70 bcm",
+      "110 bcm",
+      "170 bcm",
+      "580 bcm",
+      "90 bcm",
+      "145 bcm",
+      "90 bcm"
+    ]
+  },
+  {
+    "text": "Production in Russia decreases by over 20% to 2035 as both domestic demand and exports decline. In advanced economies, coal production decreases by around 40% to 2035 (less than the 50% decline in demand over the same period).",
+    "pdf_page_index": 99,
+    "page": 100,
+    "pdf_page": 100,
+    "scenario": "Unspecified",
+    "sectors": [
+      "Coal"
+    ],
+    "primary_sector": "Coal",
+    "years": [
+      2035
+    ],
+    "time_bucket": "Mid-term",
+    "constraint_type": "Decline",
+    "metric": "Unspecified",
+    "numbers": [
+      "20%",
+      "2035 ",
+      "40%",
+      "2035 ",
+      "50%"
+    ]
+  },
+  {
+    "text": "These sectors consume most of the increase in solid bioenergy production to 2035, with power generation in China and industry in India accounting between them for 30% of the overall increase. Liquid biofuels production rose to around million barrels of oil equivalent per day (mboe/d) in 2024.",
+    "pdf_page_index": 102,
+    "page": 103,
+    "pdf_page": 103,
+    "scenario": "Unspecified",
+    "sectors": [
+      "Oil",
+      "Power",
+      "Industry"
+    ],
+    "primary_sector": "Oil",
+    "years": [
+      2024,
+      2035
+    ],
+    "time_bucket": "Mid-term",
+    "constraint_type": "Growth",
+    "metric": "Capacity",
+    "numbers": [
+      "2035",
+      "30%",
+      "2024"
+    ]
+  },
+  {
+    "text": "Though currently the European Union makes use of around 40% of its biogas potential \u2013 more than any other region or country 5 One bcme is a measure of energy and equals 36 petajoules based on the lower heating value. Coal Oil Gas Avoided methane Fossil displacement 2024-2035 Biomethane production bcm Annual fossil fuel import savings USD billion Annual emissions avoided Mt CO\u2082-eq Direct jobs added Thousand",
+    "pdf_page_index": 103,
+    "page": 104,
+    "pdf_page": 104,
+    "scenario": "Unspecified",
+    "sectors": [
+      "Oil",
+      "Gas",
+      "Coal",
+      "Buildings",
+      "Industry"
+    ],
+    "primary_sector": "Oil",
+    "years": [
+      2024,
+      2035
+    ],
+    "time_bucket": "Mid-term",
+    "constraint_type": "Trend",
+    "metric": "Emissions",
+    "numbers": [
+      "40%",
+      "5 ",
+      "36 ",
+      "2024",
+      "2035 "
+    ]
+  },
+  {
+    "text": "Sustainable fuels \u2013 including liquid biofuels, biogases, low-emissions hydrogen and hydrogen-based fuels \u2013 are widely deployed: their use more than quadruples by 2035 from current levels. Methane emissions are cut by more than 80% by 2035.",
+    "pdf_page_index": 105,
+    "page": 106,
+    "pdf_page": 106,
+    "scenario": "Unspecified",
+    "sectors": [
+      "Gas"
+    ],
+    "primary_sector": "Gas",
+    "years": [
+      2035
+    ],
+    "time_bucket": "Mid-term",
+    "constraint_type": "Trend",
+    "metric": "Emissions",
+    "numbers": [
+      "2035 ",
+      "80%",
+      "2035"
+    ]
+  },
+  {
+    "text": "\u2022 Global energy-related carbon dioxide (CO2) emissions were 38 gigatonnes (Gt) in 2024. In the NZE Scenario, emissions fall by nearly 55% by 2035 to around 18 Gt.",
+    "pdf_page_index": 105,
+    "page": 106,
+    "pdf_page": 106,
+    "scenario": "NZE",
+    "sectors": [
+      "Cross-sector"
+    ],
+    "primary_sector": "Cross-sector",
+    "years": [
+      2024,
+      2035
+    ],
+    "time_bucket": "Mid-term",
+    "constraint_type": "Decline",
+    "metric": "Emissions",
+    "numbers": [
+      "2",
+      "38 ",
+      "2024",
+      "55%",
+      "2035 ",
+      "18 Gt"
+    ]
+  },
+  {
+    "text": "At present, many households, businesses and governments are facing high interest rates and many governments around the world are grappling with challenging fiscal outlooks: in 2025, fiscal deficits in both advanced and emerging market and developing economies are projected to be around 60% larger than on average during the pre-Covid period. Low- emissions energy systems can provide hedges against volatility in fossil fuel markets, but raising the investment needed to achieve energy transitions is made more difficult by tighter financing conditions.",
+    "pdf_page_index": 110,
+    "page": 111,
+    "pdf_page": 111,
+    "scenario": "Unspecified",
+    "sectors": [
+      "Cross-sector"
+    ],
+    "primary_sector": "Cross-sector",
+    "years": [
+      2025
+    ],
+    "time_bucket": "Short-term",
+    "constraint_type": "Trend",
+    "metric": "Emissions",
+    "numbers": [
+      "2025",
+      "60%"
+    ]
+  },
+  {
+    "text": "Cutting emissions from SLCFs has a key role to limit global warming in the decades around mid-century (section ). Important energy-related SLCFs include methane and black carbon4, emissions of which drop by more than 80% in 2035 from today\u2019s level (section ).",
+    "pdf_page_index": 112,
+    "page": 113,
+    "pdf_page": 113,
+    "scenario": "Unspecified",
+    "sectors": [
+      "Cross-sector"
+    ],
+    "primary_sector": "Cross-sector",
+    "years": [
+      2035
+    ],
+    "time_bucket": "Mid-term",
+    "constraint_type": "Decline",
+    "metric": "Emissions",
+    "numbers": [
+      "4",
+      "80%",
+      "2035 "
+    ]
+  },
+  {
+    "text": "By 2050 around 1 Gt of CO2 is removed by DACS in the NZE Scenario, and this grows to about Gt by 2100 to make up the remaining removals. This level of DACS would require just over 13 exajoules (EJ) per year by 2100, roughly equivalent to the energy requirements for buildings in the European Union today.",
+    "pdf_page_index": 114,
+    "page": 115,
+    "pdf_page": 115,
+    "scenario": "NZE",
+    "sectors": [
+      "Buildings"
+    ],
+    "primary_sector": "Buildings",
+    "years": [
+      2050
+    ],
+    "time_bucket": "Long-term",
+    "constraint_type": "Growth",
+    "metric": "Emissions",
+    "numbers": [
+      "2050 ",
+      "1 Gt",
+      "2 ",
+      "2100 ",
+      "13 ",
+      "2100"
+    ]
+  },
+  {
+    "text": "Renewables were responsible for 32% of power generation worldwide, and nuclear for around 9%: there was also a very small contribution of less than % from fossil fuels equipped with CCUS. Global installed capacity of renewables triples to 2030 from a 2022 baseline in the NZE Scenario, building on the strong momentum already seen in the power sector, and meeting the goal set at COP28 in 2023 (around one-third of total generation today to around three-quarters by 2035.",
+    "pdf_page_index": 120,
+    "page": 121,
+    "pdf_page": 121,
+    "scenario": "NZE",
+    "sectors": [
+      "Power"
+    ],
+    "primary_sector": "Power",
+    "years": [
+      2022,
+      2023,
+      2030,
+      2035
+    ],
+    "time_bucket": "Mid-term",
+    "constraint_type": "Growth",
+    "metric": "Capacity",
+    "numbers": [
+      "32%",
+      "9%",
+      "2030 ",
+      "2022 ",
+      "28 ",
+      "2023 ",
+      "2035"
+    ]
+  },
+  {
+    "text": "In the NZE Scenario, investment surges in grid infrastructure, and around 30 million kilometres (km) of new transmission and distribution lines are added by 2035. As variable renewables such as solar PV and wind account for a rising share of generation, dispatchable capacity plays a critical role to ensure electricity security.",
+    "pdf_page_index": 120,
+    "page": 121,
+    "pdf_page": 121,
+    "scenario": "NZE",
+    "sectors": [
+      "Power"
+    ],
+    "primary_sector": "Power",
+    "years": [
+      2035
+    ],
+    "time_bucket": "Mid-term",
+    "constraint_type": "Trend",
+    "metric": "Capacity",
+    "numbers": [
+      "30 million",
+      "2035"
+    ]
+  },
+  {
+    "text": "At the COP28 in December 2023, more than 20 countries, representing 70% of current installed nuclear capacity, pledged to triple global nuclear power capacity by 2050. Six additional countries signed the pledge at the COP29 in 2024.",
+    "pdf_page_index": 121,
+    "page": 122,
+    "pdf_page": 122,
+    "scenario": "Unspecified",
+    "sectors": [
+      "Power"
+    ],
+    "primary_sector": "Power",
+    "years": [
+      2023,
+      2024,
+      2050
+    ],
+    "time_bucket": "Long-term",
+    "constraint_type": "Growth",
+    "metric": "Capacity",
+    "numbers": [
+      "28 ",
+      "2023",
+      "20 ",
+      "70%",
+      "2050",
+      "29 ",
+      "2024"
+    ]
+  },
+  {
+    "text": "Their use avoids Gt CO2 of emissions by 2050 in the NZE Scenario, contributing around a third of combustion emissions reductions in the industry sector. Technologies that are more mature today reach market shares of 30-50% in their respective industries in the NZE Scenario, and electric alumina digestion attains a market share of over 80% by 2050 (not deployed as extensively in the NZE Scenario, so there is potential upside if they prove to be feasible in larger demonstration projects.",
+    "pdf_page_index": 124,
+    "page": 125,
+    "pdf_page": 125,
+    "scenario": "NZE",
+    "sectors": [
+      "Industry"
+    ],
+    "primary_sector": "Industry",
+    "years": [
+      2050
+    ],
+    "time_bucket": "Long-term",
+    "constraint_type": "Trend",
+    "metric": "Emissions",
+    "numbers": [
+      "2 ",
+      "2050 ",
+      "30",
+      "50%",
+      "80%",
+      "2050 "
+    ]
+  },
+  {
+    "text": "The deployment of electrification technologies in the NZE Scenario has important implications for the electricity system. The electricity demand of all technologies analysed reaches nearly 6 700 TWh by 2050: this is more than twice the electricity consumption of energy-intensive industries today, and accounts for about 10% of total electricity demand in 2050.",
+    "pdf_page_index": 124,
+    "page": 125,
+    "pdf_page": 125,
+    "scenario": "NZE",
+    "sectors": [
+      "Power"
+    ],
+    "primary_sector": "Power",
+    "years": [
+      2050
+    ],
+    "time_bucket": "Long-term",
+    "constraint_type": "Trend",
+    "metric": "Electricity demand",
+    "numbers": [
+      "6 ",
+      "700 TWh",
+      "2050",
+      "10%",
+      "2050"
+    ]
+  },
+  {
+    "text": "Moving to more efficient cooking fuels such as liquefied petroleum gas and electricity reduces energy demand by up to 85% compared to traditional cooking. NZE Scenario, 2024-2035 Continued energy efficiency gains allow economic growth to go hand-in-hand with reductions in energy consumption In the transport sector, the switch from internal combustion engine (ICE) vehicles to EVs reduces energy consumption because of the higher efficiency of electric motors, regenerative braking and simpler drivetrains: an EV uses 70-80% less energy than a comparable ICE vehicle to travel the same distance.",
+    "pdf_page_index": 127,
+    "page": 128,
+    "pdf_page": 128,
+    "scenario": "NZE",
+    "sectors": [
+      "Oil",
+      "Gas",
+      "Power",
+      "Transport"
+    ],
+    "primary_sector": "Oil",
+    "years": [
+      2024,
+      2035
+    ],
+    "time_bucket": "Mid-term",
+    "constraint_type": "Growth",
+    "metric": "Unspecified",
+    "numbers": [
+      "85%",
+      "2024",
+      "2035 ",
+      "70",
+      "80%"
+    ]
+  },
+  {
+    "text": "As a result, low- emissions molecules, i.e. hydrogen, hydrogen-based fuels and bioenergy, have a vital role to play to supplement electricity on the path to net zero emissions. In the NZE Scenario, such low-emissions fuels supply around 10% of total final consumption in 2035 and around 20% in 2050, up from 5% today.",
+    "pdf_page_index": 128,
+    "page": 129,
+    "pdf_page": 129,
+    "scenario": "NZE",
+    "sectors": [
+      "Power"
+    ],
+    "primary_sector": "Power",
+    "years": [
+      2035,
+      2050
+    ],
+    "time_bucket": "Long-term",
+    "constraint_type": "Trend",
+    "metric": "Emissions",
+    "numbers": [
+      "10%",
+      "2035 ",
+      "20%",
+      "2050",
+      "5%"
+    ]
+  },
+  {
+    "text": "In the NZE Scenario, EVs are the main route to decarbonise passenger road transport, and continued growth for liquid bioenergy comes from other end-use sectors which rely on energy-dense liquid fuels. These include shipping and aviation, which together account for around 25% of liquid and gaseous bioenergy consumption by 2035 (the next decade as the primary means of producing sustainable aviation fuels (SAF) that can be directly substituted for conventional fossil-based jet fuel.",
+    "pdf_page_index": 128,
+    "page": 129,
+    "pdf_page": 129,
+    "scenario": "NZE",
+    "sectors": [
+      "Gas",
+      "Transport"
+    ],
+    "primary_sector": "Gas",
+    "years": [
+      2035
+    ],
+    "time_bucket": "Mid-term",
+    "constraint_type": "Growth",
+    "metric": "Unspecified",
+    "numbers": [
+      "25%",
+      "2035 "
+    ]
+  },
+  {
+    "text": "In 2035, around 80% of SAF are biofuels, more than 85% of which are produced from biomass that does not compete with food production. It is not until the 2040s that fuels synthesised from hydrogen and CO2 captured from point sources or the atmosphere become an important source of SAF in the NZE scenario.",
+    "pdf_page_index": 128,
+    "page": 129,
+    "pdf_page": 129,
+    "scenario": "NZE",
+    "sectors": [
+      "Cross-sector"
+    ],
+    "primary_sector": "Cross-sector",
+    "years": [
+      2035,
+      2040
+    ],
+    "time_bucket": "Long-term",
+    "constraint_type": "Trend",
+    "metric": "Emissions",
+    "numbers": [
+      "2035",
+      "80%",
+      "85%",
+      "2040",
+      "2 "
+    ]
+  },
+  {
+    "text": "Emerging market and developing economies are the largest source of expansion, with blended biomethane playing an important role to decarbonise gas networks that supply domestic heating and non-energy-intensive industries, meeting around 10% and 7% respectively of those energy demands by 2050. This increase in blending leads to significant growth in biogas demand compared to liquid biofuels.",
+    "pdf_page_index": 128,
+    "page": 129,
+    "pdf_page": 129,
+    "scenario": "Unspecified",
+    "sectors": [
+      "Gas",
+      "Buildings"
+    ],
+    "primary_sector": "Gas",
+    "years": [
+      2050
+    ],
+    "time_bucket": "Long-term",
+    "constraint_type": "Growth",
+    "metric": "Gas demand",
+    "numbers": [
+      "10%",
+      "7%",
+      "2050"
+    ]
+  },
+  {
+    "text": "The IEA 2025 update to the Outlook for Biogas and Biomethane used geospatial analysis to demonstrate that almost 25% of today\u2019s natural gas demand could be met sustainably by biogases (IEA, 2025b). The NZE Scenario does not rely on all this potential being tapped: it envisages biogas demand reaching 15 EJ in 2050, or around 10% of current demand for natural gas.",
+    "pdf_page_index": 128,
+    "page": 129,
+    "pdf_page": 129,
+    "scenario": "NZE",
+    "sectors": [
+      "Gas"
+    ],
+    "primary_sector": "Gas",
+    "years": [
+      2025,
+      2050
+    ],
+    "time_bucket": "Long-term",
+    "constraint_type": "Trend",
+    "metric": "Gas demand",
+    "numbers": [
+      "2025 ",
+      "25%",
+      "2025",
+      "15 ",
+      "2050",
+      "10%"
+    ]
+  },
+  {
+    "text": "In the aviation sector, alcohol-to-jet (AtJ) pathways are a promising option for upgrading bioethanol, and demonstration projects are under way in both Europe and the United States. In the NZE Scenario, these pathways account for over 10% of SAF production in 2035.",
+    "pdf_page_index": 130,
+    "page": 131,
+    "pdf_page": 131,
+    "scenario": "NZE",
+    "sectors": [
+      "Transport"
+    ],
+    "primary_sector": "Transport",
+    "years": [
+      2035
+    ],
+    "time_bucket": "Mid-term",
+    "constraint_type": "Trend",
+    "metric": "Unspecified",
+    "numbers": [
+      "10%",
+      "2035"
+    ]
+  },
+  {
+    "text": "In the NZE Scenario, low-emissions hydrogen and hydrogen-based fuels account for 2% of total final consumption by 2035, increasing to almost 10% by 2050. However, their share is much higher in sectors such as aviation and shipping.",
+    "pdf_page_index": 131,
+    "page": 132,
+    "pdf_page": 132,
+    "scenario": "NZE",
+    "sectors": [
+      "Transport"
+    ],
+    "primary_sector": "Transport",
+    "years": [
+      2035,
+      2050
+    ],
+    "time_bucket": "Long-term",
+    "constraint_type": "Trend",
+    "metric": "Emissions",
+    "numbers": [
+      "2%",
+      "2035",
+      "10%",
+      "2050"
+    ]
+  },
+  {
+    "text": "Low-emissions hydrogen meets less than 1% of global hydrogen demand. Low-emissions hydrogen production rapidly scales up in the NZE Scenario, and over 35% of all hydrogen used in the industry sector by 2035 comes from low-emissions sources.",
+    "pdf_page_index": 131,
+    "page": 132,
+    "pdf_page": 132,
+    "scenario": "NZE",
+    "sectors": [
+      "Industry"
+    ],
+    "primary_sector": "Industry",
+    "years": [
+      2035
+    ],
+    "time_bucket": "Mid-term",
+    "constraint_type": "Trend",
+    "metric": "Emissions",
+    "numbers": [
+      "1%",
+      "35%",
+      "2035 "
+    ]
+  },
+  {
+    "text": "The two largest electrolyser projects in the world that have received a final investment decision (FID) are in Saudi Arabia ( GW) and India ( GW): both will use low-emissions hydrogen to produce ammonia. In refineries, low-emissions hydrogen meets around 30% of hydrogen demand by 2035.",
+    "pdf_page_index": 131,
+    "page": 132,
+    "pdf_page": 132,
+    "scenario": "Unspecified",
+    "sectors": [
+      "Cross-sector"
+    ],
+    "primary_sector": "Cross-sector",
+    "years": [
+      2035
+    ],
+    "time_bucket": "Mid-term",
+    "constraint_type": "Trend",
+    "metric": "Emissions",
+    "numbers": [
+      "30%",
+      "2035"
+    ]
+  },
+  {
+    "text": "In the NZE Scenario, low-emissions ammonia, synthetic methanol and hydrogen rapidly displace other fuels, and between them they meet around 30% of the energy needs for shipping in the NZE Scenario by 2035. In the aviation sector, synthetic kerosene, from a power-to-liquid process, is not being used today, though mandates for its future use have been put into force in the European Union and the United Kingdom.",
+    "pdf_page_index": 132,
+    "page": 133,
+    "pdf_page": 133,
+    "scenario": "NZE",
+    "sectors": [
+      "Power",
+      "Transport"
+    ],
+    "primary_sector": "Power",
+    "years": [
+      2035
+    ],
+    "time_bucket": "Mid-term",
+    "constraint_type": "Trend",
+    "metric": "Emissions",
+    "numbers": [
+      "30%",
+      "2035"
+    ]
+  },
+  {
+    "text": "In the NZE Scenario, low-emissions hydrogen and ammonia meet around % of the total fuel needs in the global power sector by 2035. Industry Transport Refining Power Other Hydrogen Ammonia Synthetic HCF Hydrogen and hydrogen-based fuel demand EJ Unabated Low-emissions Chemicals Steel Aviation Shipping 15% 30% 45% 60% Share of hydrogen and hydrogen-based fuels",
+    "pdf_page_index": 132,
+    "page": 133,
+    "pdf_page": 133,
+    "scenario": "NZE",
+    "sectors": [
+      "Oil",
+      "Power",
+      "Transport",
+      "Industry"
+    ],
+    "primary_sector": "Oil",
+    "years": [
+      2035
+    ],
+    "time_bucket": "Mid-term",
+    "constraint_type": "Trend",
+    "metric": "Emissions",
+    "numbers": [
+      "2035",
+      "15%",
+      "30%",
+      "45%",
+      "60%"
+    ]
+  },
+  {
+    "text": "The fossil fuel sector offers significant potential for rapid and low-cost reductions in methane emissions. In the NZE Scenario, methane emissions from the energy sector fall by more than 80% by 2035 as all available mitigation measures are deployed across energy supply chains (",
+    "pdf_page_index": 133,
+    "page": 134,
+    "pdf_page": 134,
+    "scenario": "NZE",
+    "sectors": [
+      "Cross-sector"
+    ],
+    "primary_sector": "Cross-sector",
+    "years": [
+      2035
+    ],
+    "time_bucket": "Mid-term",
+    "constraint_type": "Decline",
+    "metric": "Emissions",
+    "numbers": [
+      "80%",
+      "2035 "
+    ]
+  },
+  {
+    "text": "Additional measures, for example establishing emissions pricing, financing instruments and performance standards, could lead to an 85% reduction by 2035. Almost all these abatement measures would be cost effective to deploy with a GHG emissions price of about USD 20 per tonne of carbon-dioxide equivalent.",
+    "pdf_page_index": 134,
+    "page": 135,
+    "pdf_page": 135,
+    "scenario": "Unspecified",
+    "sectors": [
+      "Cross-sector"
+    ],
+    "primary_sector": "Cross-sector",
+    "years": [
+      2035
+    ],
+    "time_bucket": "Mid-term",
+    "constraint_type": "Trend",
+    "metric": "Emissions",
+    "numbers": [
+      "85%",
+      "2035",
+      "20 "
+    ]
+  },
+  {
+    "text": "This translates into average spending on electrification of over USD 900 billion each year to 2035 \u2013 a tripling from current levels. Average annual investment in energy efficiency in the buildings sector alone approaches USD 600 billion per year over the next decade.",
+    "pdf_page_index": 136,
+    "page": 137,
+    "pdf_page": 137,
+    "scenario": "Unspecified",
+    "sectors": [
+      "Buildings"
+    ],
+    "primary_sector": "Buildings",
+    "years": [
+      2035
+    ],
+    "time_bucket": "Mid-term",
+    "constraint_type": "Trend",
+    "metric": "Unspecified",
+    "numbers": [
+      "900 billion",
+      "2035 ",
+      "600 billion"
+    ]
+  },
+  {
+    "text": "20% 40% 60% 80% 100% 2015-19 2020-24 2025-35 Other end-use Energy efficiency Grids and storage Nuclear Renewable power Low-emissions fuels Coal Natural gas Oil Share of low-emissions Trillion USD (2024, MER) technologies (right axis)",
+    "pdf_page_index": 136,
+    "page": 137,
+    "pdf_page": 137,
+    "scenario": "Unspecified",
+    "sectors": [
+      "Oil",
+      "Gas",
+      "Coal",
+      "Power"
+    ],
+    "primary_sector": "Oil",
+    "years": [
+      2015,
+      2020,
+      2024,
+      2025
+    ],
+    "time_bucket": "Short-term",
+    "constraint_type": "Trend",
+    "metric": "Emissions",
+    "numbers": [
+      "20%",
+      "40%",
+      "60%",
+      "80%",
+      "100%",
+      "2015",
+      "19 ",
+      "2020",
+      "24 ",
+      "2025",
+      "35 ",
+      "2024"
+    ]
+  },
+  {
+    "text": "351 Scenario leads to rapid cuts in all pollutants in all regions. By 2035, emissions of fine particulate matter (PM ), sulphur dioxide (SO2) and nitrogen oxides (NOX) in aggregate fall by 70% in advanced economies, driven largely by less oil use in road transport, and almost 80% in emerging market and developing economies, driven by less use of coal in power generation.",
+    "pdf_page_index": 141,
+    "page": 142,
+    "pdf_page": 142,
+    "scenario": "Unspecified",
+    "sectors": [
+      "Oil",
+      "Coal",
+      "Power",
+      "Transport"
+    ],
+    "primary_sector": "Oil",
+    "years": [
+      2035
+    ],
+    "time_bucket": "Mid-term",
+    "constraint_type": "Decline",
+    "metric": "Emissions",
+    "numbers": [
+      "351 ",
+      "2035",
+      "2",
+      "70%",
+      "80%"
+    ]
+  },
+  {
+    "text": "By 2035, around 2 fewer million people per year die prematurely from ambient air pollution compared to today; 85% of these avoided deaths are in emerging market and developing economies. Universal access to clean cooking avoids around million deaths per year from household air pollution, a drop of 85%.",
+    "pdf_page_index": 141,
+    "page": 142,
+    "pdf_page": 142,
+    "scenario": "Unspecified",
+    "sectors": [
+      "Cross-sector"
+    ],
+    "primary_sector": "Cross-sector",
+    "years": [
+      2035
+    ],
+    "time_bucket": "Mid-term",
+    "constraint_type": "Decline",
+    "metric": "Unspecified",
+    "numbers": [
+      "2035",
+      "2 ",
+      "85%",
+      "85%"
+    ]
+  },
+  {
+    "text": "maintained at around 4% per year through to 2035, compared with 2% in 2022. Deep cuts in energy sector methane emissions help to lower peak warming, avoiding an even higher overshoot of the \u00b0C goal.",
+    "pdf_page_index": 144,
+    "page": 145,
+    "pdf_page": 145,
+    "scenario": "Unspecified",
+    "sectors": [
+      "Cross-sector"
+    ],
+    "primary_sector": "Cross-sector",
+    "years": [
+      2022,
+      2035
+    ],
+    "time_bucket": "Mid-term",
+    "constraint_type": "Peak",
+    "metric": "Emissions",
+    "numbers": [
+      "4%",
+      "2035",
+      "2%",
+      "2022"
+    ]
+  },
+  {
+    "text": "By 2035, energy sector methane emissions are 80% lower than today. Deployment of options that have a critical role to cut emissions in the longer term start to accelerate by 2035 in the NZE Scenario.",
+    "pdf_page_index": 144,
+    "page": 145,
+    "pdf_page": 145,
+    "scenario": "NZE",
+    "sectors": [
+      "Cross-sector"
+    ],
+    "primary_sector": "Cross-sector",
+    "years": [
+      2035
+    ],
+    "time_bucket": "Mid-term",
+    "constraint_type": "Trend",
+    "metric": "Emissions",
+    "numbers": [
+      "2035",
+      "80%",
+      "2035 "
+    ]
+  },
+  {
+    "text": "This diverse group includes regions with high per capita emissions such as the Middle East and very low per capita emissions such as India and Africa. By 2050, global energy- related CO2 emissions are just under 30 Gt, around 20% below the level of 2024.",
+    "pdf_page_index": 145,
+    "page": 146,
+    "pdf_page": 146,
+    "scenario": "Unspecified",
+    "sectors": [
+      "Cross-sector"
+    ],
+    "primary_sector": "Cross-sector",
+    "years": [
+      2024,
+      2050
+    ],
+    "time_bucket": "Long-term",
+    "constraint_type": "Trend",
+    "metric": "Emissions",
+    "numbers": [
+      "2050",
+      "2 ",
+      "30 Gt",
+      "20%",
+      "2024"
+    ]
+  },
+  {
+    "text": "265 Trends in the electricity sector do much to shape the emissions pathway projected in the STEPS. By 2035, global electricity sector emissions are almost 20% lower than in 2024, offsetting continued growth in emissions in the transport and industry sectors.",
+    "pdf_page_index": 146,
+    "page": 147,
+    "pdf_page": 147,
+    "scenario": "STEPS",
+    "sectors": [
+      "Power",
+      "Transport",
+      "Industry"
+    ],
+    "primary_sector": "Power",
+    "years": [
+      2024,
+      2035
+    ],
+    "time_bucket": "Mid-term",
+    "constraint_type": "Growth",
+    "metric": "Emissions",
+    "numbers": [
+      "265 ",
+      "2035",
+      "20%",
+      "2024"
+    ]
+  },
+  {
+    "text": "By 2050, electricity sector emissions are almost 50% below their 2024 level. Emissions from industry and transport both peak before 2050, but they are still very close to their current level in that year (In contrast, global energy-related emissions in the CPS do not peak before 2030 and are still marginally higher in 2035 than their levels in 2024.",
+    "pdf_page_index": 146,
+    "page": 147,
+    "pdf_page": 147,
+    "scenario": "CPS",
+    "sectors": [
+      "Power",
+      "Transport",
+      "Industry"
+    ],
+    "primary_sector": "Power",
+    "years": [
+      2024,
+      2030,
+      2035,
+      2050
+    ],
+    "time_bucket": "Long-term",
+    "constraint_type": "Peak",
+    "metric": "Emissions",
+    "numbers": [
+      "2050",
+      "50%",
+      "2024 ",
+      "2050",
+      "2030 ",
+      "2035 ",
+      "2024"
+    ]
+  },
+  {
+    "text": "In heavily polluted countries, the costs can be much higher; they are estimated to exceed 11% of GDP in parts of India, Pakistan and Bangladesh (World Bank, 2025). However, a shift to clean energy can lead to an immediate improvement in air quality.",
+    "pdf_page_index": 148,
+    "page": 149,
+    "pdf_page": 149,
+    "scenario": "Unspecified",
+    "sectors": [
+      "Cross-sector"
+    ],
+    "primary_sector": "Cross-sector",
+    "years": [
+      2025
+    ],
+    "time_bucket": "Short-term",
+    "constraint_type": "Trend",
+    "metric": "Unspecified",
+    "numbers": [
+      "11%",
+      "2025"
+    ]
+  },
+  {
+    "text": "In African and other emerging market and developing economies, the continued reliance on traditional bioenergy for cooking and heating is a major source of pollution. In the CPS, total global pollution emissions fall by around 10% between 2024-2035.",
+    "pdf_page_index": 148,
+    "page": 149,
+    "pdf_page": 149,
+    "scenario": "CPS",
+    "sectors": [
+      "Buildings"
+    ],
+    "primary_sector": "Buildings",
+    "years": [
+      2024,
+      2035
+    ],
+    "time_bucket": "Mid-term",
+    "constraint_type": "Decline",
+    "metric": "Emissions",
+    "numbers": [
+      "10%",
+      "2024",
+      "2035"
+    ]
+  },
+  {
+    "text": "The decline in deaths from household air pollution seen in recent years continues, but slows in both scenarios. By 2035 there are around 2 million deaths per year in the STEPS, and million in the CPS.",
+    "pdf_page_index": 149,
+    "page": 150,
+    "pdf_page": 150,
+    "scenario": "CPS",
+    "sectors": [
+      "Cross-sector"
+    ],
+    "primary_sector": "Cross-sector",
+    "years": [
+      2035
+    ],
+    "time_bucket": "Mid-term",
+    "constraint_type": "Decline",
+    "metric": "Unspecified",
+    "numbers": [
+      "2035 ",
+      "2 million"
+    ]
+  },
+  {
+    "text": "The biggest improvements are in China and India, where clean cooking access rates reach 100% and 92% by 2035 respectively in the STEPS. However, premature deaths are set to rise in Africa in both scenarios due to rapid population growth and insufficient progress on clean cooking access (see Chapter 6).",
+    "pdf_page_index": 149,
+    "page": 150,
+    "pdf_page": 150,
+    "scenario": "STEPS",
+    "sectors": [
+      "Cross-sector"
+    ],
+    "primary_sector": "Cross-sector",
+    "years": [
+      2035
+    ],
+    "time_bucket": "Mid-term",
+    "constraint_type": "Growth",
+    "metric": "Unspecified",
+    "numbers": [
+      "100%",
+      "92%",
+      "2035 ",
+      "6"
+    ]
+  },
+  {
+    "text": "Source: IEA analysis based on IIASA modelling. Investment and affordability Energy investment Investment in the energy sector is projected to reach USD trillion in 2025, which is over 20% more than in 2015.",
+    "pdf_page_index": 150,
+    "page": 151,
+    "pdf_page": 151,
+    "scenario": "Unspecified",
+    "sectors": [
+      "Cross-sector"
+    ],
+    "primary_sector": "Cross-sector",
+    "years": [
+      2015,
+      2025
+    ],
+    "time_bucket": "Short-term",
+    "constraint_type": "Trend",
+    "metric": "Unspecified",
+    "numbers": [
+      "2025",
+      "20%",
+      "2015"
+    ]
+  },
+  {
+    "text": "Even so, these regions encompass over 25% of the global population and are projected to expand their energy demand by nearly 20% by 2035 in the STEPS. The share of global spending on low-emissions technologies has been rising steadily, driven in large part by heightened concerns over energy security since 2022.",
+    "pdf_page_index": 150,
+    "page": 151,
+    "pdf_page": 151,
+    "scenario": "STEPS",
+    "sectors": [
+      "Cross-sector"
+    ],
+    "primary_sector": "Cross-sector",
+    "years": [
+      2022,
+      2035
+    ],
+    "time_bucket": "Mid-term",
+    "constraint_type": "Growth",
+    "metric": "Emissions",
+    "numbers": [
+      "25%",
+      "20%",
+      "2035 ",
+      "2022"
+    ]
+  },
+  {
+    "text": "It is expected to account for two-thirds of total energy investment in 2025. Net importers of fossil fuels are responsible for 70% of the growth in low-emissions technology investment that has taken place over the last five years.",
+    "pdf_page_index": 150,
+    "page": 151,
+    "pdf_page": 151,
+    "scenario": "Unspecified",
+    "sectors": [
+      "Cross-sector"
+    ],
+    "primary_sector": "Cross-sector",
+    "years": [
+      2025
+    ],
+    "time_bucket": "Short-term",
+    "constraint_type": "Growth",
+    "metric": "Emissions",
+    "numbers": [
+      "2025",
+      "70%"
+    ]
+  },
+  {
+    "text": "Higher shares of renewables in the STEPS mean that investment in grids is slightly higher than in the CPS by 2035, but spending on transmission and distribution is mostly driven by electricity demand growth and line refurbishments, which are similar in both scenarios (see Chapter 3). Battery storage investment is about 15% higher in the STEPS in 2035 than in the CPS.",
+    "pdf_page_index": 152,
+    "page": 153,
+    "pdf_page": 153,
+    "scenario": "CPS",
+    "sectors": [
+      "Power"
+    ],
+    "primary_sector": "Power",
+    "years": [
+      2035
+    ],
+    "time_bucket": "Mid-term",
+    "constraint_type": "Growth",
+    "metric": "Electricity demand",
+    "numbers": [
+      "2035",
+      "3",
+      "15%",
+      "2035 "
+    ]
+  },
+  {
+    "text": "Electrification of heat and mobility broadens in both scenarios where current supportive policies or where technologies like heat pumps and EVs are already cost competitive. In the STEPS, this translates into an annual investment increase of about USD 300 billion related to electrification in 2035, double the current level.",
+    "pdf_page_index": 153,
+    "page": 154,
+    "pdf_page": 154,
+    "scenario": "STEPS",
+    "sectors": [
+      "Transport"
+    ],
+    "primary_sector": "Transport",
+    "years": [
+      2035
+    ],
+    "time_bucket": "Mid-term",
+    "constraint_type": "Growth",
+    "metric": "Unspecified",
+    "numbers": [
+      "300 billion",
+      "2035"
+    ]
+  },
+  {
+    "text": "They are distinct from profits made by renewable developers or utilities, which are fully captured in financing costs. Taking these factors into account, operating today\u2019s global energy system costs about USD 7 trillion annually (delivered to a growing global economy and an increasing number of people, yet costs in 2035 are nearly 10% lower in the STEPS than in the CPS.",
+    "pdf_page_index": 153,
+    "page": 154,
+    "pdf_page": 154,
+    "scenario": "CPS",
+    "sectors": [
+      "Cross-sector"
+    ],
+    "primary_sector": "Cross-sector",
+    "years": [
+      2035
+    ],
+    "time_bucket": "Mid-term",
+    "constraint_type": "Growth",
+    "metric": "Unspecified",
+    "numbers": [
+      "7 ",
+      "2035 ",
+      "10%"
+    ]
+  },
+  {
+    "text": "Policy shifts, tariff uncertainty and geopolitical risks are now reshaping market expectations, leading many firms to take a cautious approach to hiring and job vacancy rates are already falling across major economies. As a result, the IEA projects job growth in energy to slow to 1% in 2025.",
+    "pdf_page_index": 154,
+    "page": 155,
+    "pdf_page": 155,
+    "scenario": "Unspecified",
+    "sectors": [
+      "Cross-sector"
+    ],
+    "primary_sector": "Cross-sector",
+    "years": [
+      2025
+    ],
+    "time_bucket": "Short-term",
+    "constraint_type": "Decline",
+    "metric": "Unspecified",
+    "numbers": [
+      "1%",
+      "2025"
+    ]
+  },
+  {
+    "text": "279 Both scenarios project higher sales of EVs. However, the EV sales share is lower in the CPS, reaching 40% by 2035 versus 50% in the STEPS, rising from current levels of around 20%.",
+    "pdf_page_index": 155,
+    "page": 156,
+    "pdf_page": 156,
+    "scenario": "CPS",
+    "sectors": [
+      "Cross-sector"
+    ],
+    "primary_sector": "Cross-sector",
+    "years": [
+      2035
+    ],
+    "time_bucket": "Mid-term",
+    "constraint_type": "Trend",
+    "metric": "Unspecified",
+    "numbers": [
+      "279 ",
+      "40%",
+      "2035 ",
+      "50%",
+      "20%"
+    ]
+  },
+  {
+    "text": "Demographic pressures are exacerbating labour shortages, though in different ways in different regions. In advanced economies, retirements are outpacing new entrants: nearly 30% of union electricians in the United States may retire within a decade; in Japan 36% of workers in the construction industry are aged 55 or over, while only 12% are aged 29 or younger; and Canada expects retirements of 700 000 trade workers by 2028.",
+    "pdf_page_index": 156,
+    "page": 157,
+    "pdf_page": 157,
+    "scenario": "Unspecified",
+    "sectors": [
+      "Industry"
+    ],
+    "primary_sector": "Industry",
+    "years": [
+      2028
+    ],
+    "time_bucket": "Short-term",
+    "constraint_type": "Trend",
+    "metric": "Unspecified",
+    "numbers": [
+      "30%",
+      "36%",
+      "55 ",
+      "12%",
+      "29 ",
+      "700 ",
+      "000 ",
+      "2028"
+    ]
+  }
+]

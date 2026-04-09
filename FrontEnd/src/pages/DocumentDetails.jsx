@@ -16,7 +16,11 @@ export default function DocumentDetails() {
   const [blockchainTx, setBlockchainTx] = useState(null);
   const [anchorStatus, setAnchorStatus] = useState(null);
     
-  
+  async function load() {
+      const docData = await getDocumentDetails(docId);
+      const claimsData = await getDocumentClaims(docId);
+      setDoc({ ...docData, claims: claimsData });
+    }
  
 
   async function handleAnchor() {
@@ -36,13 +40,20 @@ export default function DocumentDetails() {
     }
   }
 
-  useEffect(() => {
-    async function load() {
-      const docData = await getDocumentDetails(docId);
-      const claimsData = await getDocumentClaims(docId);
-      console.log(claimsData);
-      setDoc({ ...docData, claims: claimsData });
+  async function handleRAG() {
+    try {
+      const data=await fetch(
+        `http://localhost:8000/api/rag/process-rag?doc_id=${docId}`,
+        { method: "POST" }
+      );
+      const res = await data.json();
+      console.log(res);
+    } catch (err) {
+      console.error(err);
     }
+  }
+  useEffect(() => {
+    
     load();
   }, [docId]);
 
@@ -114,7 +125,23 @@ export default function DocumentDetails() {
         <StatCard label="Risky Claims" value={doc.summary.riskyClaims} />
       </div>
 
-      <ClaimsTable claims={doc.claims} />
+      <div>
+        <button className="rounded-lg bg-blue-600 px-4 py-2 text-sm font-semibold text-white hover:bg-blue-700"
+          onClick={handleRAG}>
+          Check RAG
+        </button>
+      </div>
+
+      <ClaimsTable
+        claims={doc.claims}
+        refresh={load}
+        onDelete={(id) =>
+          setDoc((prev) => ({
+            ...prev,
+            claims: prev.claims.filter((c) => c.id !== id),
+          }))
+        }
+      />
     </div>
   );
 }
