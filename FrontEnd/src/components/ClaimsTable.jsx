@@ -8,6 +8,8 @@ export default function ClaimsTable({ claims = [], refresh, onDelete }) {
 
   // RAG state
   const [ragResults, setRagResults] = useState({});
+  console.log(ragResults);
+  
   const [openRows, setOpenRows] = useState({});
 
   // ---------- FILTER ----------

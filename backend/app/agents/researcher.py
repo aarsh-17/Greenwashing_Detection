@@ -139,9 +139,7 @@ def researcher(state, retriever):
         norm = sigmoid_normalize(raw)
         reranked_norm.append((doc, raw, norm, meta))
     
-    for doc, raw, norm, meta in reranked_norm:
-        if DEBUG:
-            print(f"Chunk: {doc.page_content[:100]}... | Raw: {raw:.4f} | Norm: {norm:.4f}")
+  
 
 
     # ---------- Step 3: Final Scoring ----------
@@ -201,7 +199,6 @@ def researcher(state, retriever):
         })
 
     context = "\n\n".join(context_blocks)
-    print("Selected Context:\n", context)
 
     # ---------- Step 6: Citations ----------
     citations = [

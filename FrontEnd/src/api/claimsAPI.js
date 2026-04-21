@@ -24,13 +24,14 @@ export async function getDocumentClaims(docId) {
   return await res.json();
 }
 
-export async function anchorDocumentToBlockchain(docId) {
-  const res = await fetch(
-    `http://localhost:8000/documents/${docId}/anchor`,
-    {
-      method: "POST",
-    }
-  );
+export async function anchorDocumentToBlockchain(data) {
+  const res = await fetch("http://localhost:3000/store", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify(data)
+  });
 
   if (!res.ok) {
     throw new Error("Failed to anchor document");
@@ -39,13 +40,27 @@ export async function anchorDocumentToBlockchain(docId) {
   return res.json();
 }
 
-export async function verifyDocumentOnChain(docId) {
-  const res = await fetch(
-    `http://localhost:8000/documents/${docId}/verify-onchain`
-  );
+export async function verifyDocumentOnChain(data) {
+  const res = await fetch("http://localhost:3000/verify", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify(data)
+  });
 
   if (!res.ok) {
     throw new Error("Verification failed");
+  }
+
+  return res.json();
+}
+
+export async function getDocumentVersions(docId) {
+  const res = await fetch(`http://localhost:3000/versions/${docId}`);
+
+  if (!res.ok) {
+    throw new Error("Failed to fetch versions");
   }
 
   return res.json();

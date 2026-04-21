@@ -72,61 +72,53 @@ def critic(state):
     # --------------------------------------------------
 
     prompt = f"""
-You are an ESG greenwashing detection agent.
+You are an adversarial auditor reviewing a prior verification decision.
 
-Your task is to determine whether the CONTEXT provides DIRECT, SUBSTANTIVE EVIDENCE that supports the CLAIM.
+Your job is NOT to determine if the claim is supported.
 
----
-
-DEFINITION OF SUBSTANTIVE EVIDENCE:
-
-The context MUST include:
-- Completed actions OR
-- Measurable outcomes OR
-- Verified implementation
+Your job is to find flaws in the reasoning.
 
 ---
 
-STRICT RULES:
+TASK:
 
-1. Evidence must be directly related to the CLAIM.
-
-2. METRIC ALIGNMENT RULE:
-   - The evidence MUST refer to the SAME metric as the CLAIM.
-   - Example:
-     Claim: methane emissions
-     Evidence: energy intensity → NOT valid
-   → respond NO
-
-3. FORWARD-LOOKING RULE:
-   - If the CLAIM includes:
-     "target", "aim", "plan", "working to", "committed to", "will", "by 20XX"
-   - Then evidence must show:
-     → actual results OR measurable progress
-   - Otherwise → NO
-
-4. Future or design statements are NOT evidence:
-   - "expected to", "designed to", "will"
-   → NO
-
-5. Ignore:
-   - general sustainability statements
-   - explanations (e.g., LNG vs coal)
-   - background information
-
-6. RELEVANCE RULE:
-   - If the context contains real actions NOT directly tied to the CLAIM,
-     they MUST be ignored.
-
-7. Repetition of claim without proof → NO
+Check whether the evidence used to support the claim is actually valid.
 
 ---
 
-EDGE CASE:
+You MUST aggressively challenge the following:
 
-If you are unsure or evidence is weak → respond NO
+1. METRIC MISMATCH
+   - Does the evidence measure the SAME thing?
+
+2. TEMPORAL MISMATCH
+   - Claim = achieved
+   - Evidence = planned or expected
+
+3. EVIDENCE QUALITY
+   - Are there real numbers, results, or outcomes?
+   - Or just vague descriptions?
+
+4. CAUSALITY GAP
+   - Does the evidence prove the claim?
+   - Or just relate to it?
+
+5. WEAK SUPPORT
+   - Is the support partial, indirect, or incomplete?
 
 ---
+
+IMPORTANT:
+
+- Even small flaws → respond NO
+- If evidence is not airtight → NO
+- Be more strict than the verifier
+
+---
+
+OUTPUT:
+YES (evidence is truly solid)
+NO (evidence is flawed, weak, or misleading)
 
 CLAIM:
 {claim}

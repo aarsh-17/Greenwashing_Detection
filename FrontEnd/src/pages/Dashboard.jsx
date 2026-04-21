@@ -5,7 +5,8 @@ import { getDocuments } from "../api/claimsAPI.js";
 
 export default function Dashboard() {
   const [docs, setDocs] = useState([]);
-
+  console.log(docs);
+  
   useEffect(() => {
     getDocuments().then(setDocs);
   }, []);
@@ -42,7 +43,7 @@ export default function Dashboard() {
           <tbody>
             {docs.map((d) => (
               <tr key={d.id} className="border-b last:border-b-0">
-                <td className="py-3 px-4 font-medium">{d.filename}</td>
+                <td className="py-3 px-4 font-medium">{d.company}</td>
                 <td className="py-3 px-4 text-zinc-600">{d.status}</td>
                 <td className="py-3 px-4 font-semibold">
                   {d.score ?? "—"}

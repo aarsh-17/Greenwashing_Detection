@@ -18,7 +18,7 @@ model = AutoModelForSequenceClassification.from_pretrained(
 model.to(device)
 model.eval()
 
-def predict_claim(sentence: str, threshold: float = 0.85):
+def predict_claim(sentence: str, threshold: float = 0.75):
     inputs = tokenizer(
         sentence,
         truncation=True,

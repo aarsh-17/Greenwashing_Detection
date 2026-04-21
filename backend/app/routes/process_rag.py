@@ -136,7 +136,7 @@ async def run_rag_claim(claim_id: str):
             "textual_evidence": rag_result.get("top_chunks", []) if rag_result else []
         }
 
-        print(f"Preview for {claim_id}: {preview_data}")
+        print(f"Preview for {claim_id}: {preview_data['rag_label']}\tConfidence: {preview_data['rag_confidence']}\tFinal Risk:            {preview_data['risk_level']}\ncitations: {rag_result.get('citations', []) if rag_result else 'N/A'}")
 
         # ✅ STORE AS PREVIEW ONLY
         claims_collection.update_one(
@@ -167,10 +167,12 @@ async def apply_rag_update(claim_id: str):
             return {"error": "Claim not found"}
 
         preview = c.get("rag_preview")
-
         if not preview:
             return {"error": "Run RAG first"}
 
+        document_id = c["document_id"]
+
+        # ---------- 1. Update claim ----------
         update_data = {
             "risk_level": preview.get("risk_level"),
             "rag_label": preview.get("rag_label"),
@@ -187,10 +189,45 @@ async def apply_rag_update(claim_id: str):
             {"$set": update_data}
         )
 
+        # ---------- 2. Recalculate document score ----------
+        remaining_claims = list(
+            claims_collection.find({"document_id": document_id})
+        )
+
+        if remaining_claims:
+            scores = [
+                {"LOW": 0, "MEDIUM": 75, "HIGH": 150}[c["risk_level"]]
+                for c in remaining_claims
+            ]
+
+            overall_score = round(sum(scores) / len(scores), 2)
+
+            doc_risk = (
+                "HIGH" if overall_score >= 70
+                else "MEDIUM" if overall_score >= 40
+                else "LOW"
+            )
+        else:
+            overall_score = 0
+            doc_risk = "LOW"
+
+        # ---------- 3. Update document ----------
+        documents_collection.update_one(
+            {"_id": document_id},
+            {
+                "$set": {
+                    "overall_score": overall_score,
+                    "risk_level": doc_risk,
+                    "total_claims": len(remaining_claims)
+                }
+            }
+        )
+
         return {
             "status": "applied",
             "claim_id": claim_id,
-            "risk_level": update_data["risk_level"]
+            "new_score": overall_score,
+            "risk_level": doc_risk
         }
 
     except Exception:

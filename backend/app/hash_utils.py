@@ -9,5 +9,9 @@ def sha256_file(file_path):
     return sha.hexdigest()
 
 def sha256_json(data):
-    encoded = json.dumps(data, sort_keys=True).encode()
+    encoded = json.dumps(
+        data,
+        sort_keys=True,
+        separators=(',', ':')  # 🔥 critical fix
+    ).encode()
     return hashlib.sha256(encoded).hexdigest()

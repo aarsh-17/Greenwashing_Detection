@@ -2,11 +2,17 @@ from web3 import Web3
 import json
 import os
 from dotenv import load_dotenv
-load_dotenv()
+
+env_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "../.env"))
+load_dotenv(env_path)
 
 POLYGON_RPC = os.getenv("POLYGON_RPC")
 PRIVATE_KEY = os.getenv("PRIVATE_KEY")
 CONTRACT_ADDRESS = os.getenv("CONTRACT_ADDRESS")
+
+print("POLYGON_RPC:", POLYGON_RPC)
+print("PRIVATE_KEY:", PRIVATE_KEY)
+print("CONTRACT_ADDRESS:", CONTRACT_ADDRESS)
 
 w3 = Web3(Web3.HTTPProvider(POLYGON_RPC))
 account = w3.eth.account.from_key(PRIVATE_KEY)

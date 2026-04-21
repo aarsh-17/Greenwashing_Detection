@@ -1,6 +1,6 @@
 import re 
 def enhanced_decision(ml_level, ml_conf, rule_score, rag_result):
-    print(f"ML Level: {ml_level}, ML Conf: {ml_conf:.3f}, Rule Score: {rule_score}, RAG Result: {rag_result}")
+    print(f"ML Level: {ml_level}, ML Conf: {ml_conf:.3f}, Rule Score: {rule_score}")
     # ---------- 1. Start with ML baseline ----------
     base = hybrid_risk_decision(ml_level, ml_conf, rule_score)
 
@@ -8,12 +8,13 @@ def enhanced_decision(ml_level, ml_conf, rule_score, rag_result):
         return base
 
     label = rag_result.get("label")
-    grounded = rag_result.get("grounded", False)
+    grounded = True
     rag_conf = rag_result.get("confidence", 0)
     similarity = rag_result.get("similarity", 0)
 
     # ---------- 2. Strong RAG signals only ----------
     strong_rag = rag_conf > 0.5 and similarity > 0.7
+    print(f"RAG confidence: {rag_conf:.3f}, similarity: {similarity:.3f}, strong_rag: {strong_rag}, label: {label}, grounded: {grounded}")
 
     # ---------- 3. Negative signals ----------
     if label == "UNSUPPORTED" and strong_rag:

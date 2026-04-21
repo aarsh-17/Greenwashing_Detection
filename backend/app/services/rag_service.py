@@ -35,8 +35,8 @@ def verify_claim_with_rag(claim: str, index_path: str):
     state = verifier(state)
 
     # ---------- Critic ----------
-    #state = critic(state)
-
+    # state = critic(state)
+    
     return {
         "label": state.get("verdict"),
         "confidence": state.get("confidence"),

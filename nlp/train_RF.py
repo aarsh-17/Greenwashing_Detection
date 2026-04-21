@@ -29,7 +29,7 @@ X = df[["claim_sentence", "has_number"]]
 y = df["label"]
 
 # Shuffle
-
+X, y = shuffle(X, y, random_state=42)
 
 # Train-test split
 X_train, X_test, y_train, y_test = train_test_split(
@@ -120,3 +120,46 @@ cv_scores = cross_val_score(
 
 print("\nCross-validation scores:", cv_scores)
 print("Mean CV F1:", np.mean(cv_scores))
+
+from sklearn.preprocessing import label_binarize
+from sklearn.metrics import roc_curve, auc
+import matplotlib.pyplot as plt
+
+# ----------------------------
+# ROC-AUC Curve
+# ----------------------------
+
+# Get class labels
+classes = best_model.classes_
+
+# Binarize labels (important for multi-class)
+y_test_bin = label_binarize(y_test, classes=classes)
+
+# Predict probabilities
+y_score = best_model.predict_proba(X_test)
+
+# Compute ROC curve and AUC for each class
+fpr = dict()
+tpr = dict()
+roc_auc = dict()
+
+for i in range(len(classes)):
+    fpr[i], tpr[i], _ = roc_curve(y_test_bin[:, i], y_score[:, i])
+    roc_auc[i] = auc(fpr[i], tpr[i])
+
+# ----------------------------
+# Plot ROC Curve
+# ----------------------------
+plt.figure()
+
+for i in range(len(classes)):
+    plt.plot(fpr[i], tpr[i], label=f"Class {classes[i]} (AUC = {roc_auc[i]:.3f})")
+
+plt.plot([0, 1], [0, 1], linestyle="--")  # random baseline
+
+plt.xlabel("False Positive Rate")
+plt.ylabel("True Positive Rate")
+plt.title("ROC-AUC Curve")
+plt.legend(loc="lower right")
+
+plt.show()
